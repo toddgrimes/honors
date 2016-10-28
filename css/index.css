@@ -1,0 +1,82 @@
+body {
+  background: url(lionsbackground.png) no-repeat;
+  font-family:Roboto,Arial,sans-serif;
+  border: 5px solid #333;
+}
+
+#title {
+  color: white;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+.header {
+  background-color: #2d0c49;
+  padding: 15px;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid white;
+}
+#f1 {
+  background-color: #eb9316;
+  transition: all 0.5s ease;
+  border-color: #46166b;
+  border: 2px solid;
+}
+#f2 {
+  background-color: #eb9316;
+  transition: all 0.5s ease;
+  border-color: #46166b;
+  border: 2px solid;
+}
+#f3 {
+  background-color: #eb9316;
+  transition: all 0.5s ease;
+  border-color: #46166b;
+  border: 2px solid;
+}
+#f1:hover {
+  color: #eb9316;
+  background-color: #46166b;
+  border-color: #eb9316;
+  border: 2px solid;
+}
+#f2:hover {
+  color: #eb9316;
+  background-color: #46166b;
+  border-color: #eb9316;
+  border: 2px solid;
+}
+#f3:hover {
+  color: #eb9316;
+  background-color: #46166b;
+  border-color: #eb9316;
+  border: 2px solid;
+}
+
+.iconContainer {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  margin: 0;
+  display: block;
+  overflow:hidden;
+}
+
+#icon1:hover {
+  color: #4099ff;
+}
+
+#icon2:hover {
+  color: #3b5998;
+}
+
+#icon3:hover {
+  color: #4875B4;
+}
+footer {
+  margin-top: -2%;
+  color: white;
+  background-color: #333;
+}
+@media (max-width : 992px) {
+
+  }
+}

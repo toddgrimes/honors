@@ -18,8 +18,8 @@
 
 	<body style="background: url(images/texture.png);">
 		<!--Header-->
-		<div class="container header" style="text-decoration: none; color: white; font-size: 17px; text-transform: uppercase; margin: 0 auto; width: 100%;">
-		<img class="img-responsive pull-left" src="../images/UNALogo.png"/ style="margin-left: 13%;">
+		<div id="unaHeader" class="container header" data-toggle="collapse" style="text-decoration: none; color: white; font-size: 17px; text-transform: uppercase; margin: 0 auto; width: 100%;">
+		<img class="img-responsive pull-left" id="unaLogo" src="../images/UNALogo.png"/ style="margin-left: 13%;">
 		<ul class="nav navbar-nav navbar-right" id="main-nav" style="margin-right: 10%;">
 		<li class="dropdown"><a class="dropdown-toggle ui-link" data-toggle="dropdown" style="background-color: inherit"; aria-expanded="false">Apply<span class="glyphicon glyphicon-chevron-down"></span></a>
 		<ul class="dropdown-menu">
@@ -109,12 +109,12 @@
 				<span class="icon-bar"></span>
 				</button>
 
-				<p class="navbar-brand" style="color: white;"><a href="../templates/index.html">Honors Program</a></p>
+				<p id="honorsText" class="navbar-brand" style="color: white;"><a href="../templates/index.html">Honors Program</a></p>
 				</div><!-- Navbar Header-->
 				<div class="collapse navbar-collapse" id="navbar-collapse">
 
-				<a class="btn btn-warning navbar-btn navbar-right active" href="../givetoday.html">Give Now</a>
-				<a class="btn btn-warning navbar-btn navbar-right active" href="../currentPages/applyTemplate.html" style="margin-right: 1%;">Apply Now</a>
+				<a id="give" class="btn btn-warning navbar-btn navbar-right active" href="../templates/givetoday.html">Give Now</a>
+				<a id="apply" class="btn btn-warning navbar-btn navbar-right active" href="../currentPages/applyTemplate.html" style="margin-right: 1%;">Apply Now</a>
 				<ul class="nav navbar-nav pull-center" style="text-align:center; position: relative; and display: inline-block;">
 				<li class="dropdown">
 				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Current Students

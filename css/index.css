@@ -1,7 +1,5 @@
 body {
-  background: url(lionsbackground.png) no-repeat;
   font-family:Roboto,Arial,sans-serif;
-  border: 5px solid #333;
 }
 
 #title {
@@ -11,7 +9,6 @@ body {
 .header {
   background-color: #2d0c49;
   padding: 15px;
-  border-top: 1px solid #333;
   border-bottom: 1px solid white;
 }
 #f1 {
@@ -72,11 +69,42 @@ body {
   color: #4875B4;
 }
 footer {
-  margin-top: -2%;
   color: white;
   background-color: #333;
 }
-@media (max-width : 992px) {
-
+@media all and (max-width: 767px) {
+  #applyImage {
+    display: none;
+  }
+  #unaLogo {
+    width: 120px;
+    height: 30px;
+    margin-right: 80%;
+  }
+  #applyLandingPage {
+    width: 100%;
+  }
+  #shield {
+    display: none;
+  }
+  #unaHeader {
+    display: none;
+  }
+  #honorsText {
+    display: none;
+  }
+  #navbar {
+    background-color: #2d0c49;
+  }
+  #unaLogoResponsive {
+    width: 150px;
+    height: 35px;
+    display: block;
+  }
+  #give {
+    width: 100%;
+  }
+  #apply {
+    width: 100%;
   }
 }

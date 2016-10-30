@@ -15,10 +15,10 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	</head>
 
-	<body style="background: url(../images/lionsbackground.png);">
+	<body>
 		<!--Header-->
 		<div class="container header" style="text-decoration: none; color: white; font-size: 17px; text-transform: uppercase; margin: 0 auto; width: 100%;">
-		<img class="img-responsive pull-left" src="../images/UNALogo.png"/ style="margin-left: 13%;">
+		<img id="unaLogo" class="img-responsive pull-left" src="../images/UNALogo.png"/ style="margin-left: 13%;">
 		<ul class="nav navbar-nav navbar-right" id="main-nav" style="margin-right: 10%;">
 		<li class="dropdown"><a class="dropdown-toggle ui-link" data-toggle="dropdown" style="background-color: inherit"; aria-expanded="false">Apply<span class="glyphicon glyphicon-chevron-down"></span></a>
 		<ul class="dropdown-menu">
@@ -100,28 +100,29 @@
 		</div>
 		<!--End Header-->
 
-		<!--Top Content-->
-		<div class="container" style="margin-top: 8%;">
-			<div class="col-sm-12">
-				<h1 id="title" class="text-center pull-left">University of<br><br> North Alabama<br><br> Honors Program</h2>
-					<div class="pull-right">
+		<!--Content-->
+		<div class="container-fluid" style="background: url(../images/lionsbackground.png) no-repeat; background-size:cover;">
+			<div class="container">
+				<h1 id="title" style="text-align: center;">Honors Program</h1>
+				<div class="col-sm-12" style="margin-top: 2%;">
+					<div class="col-md-4 pull-right">
+						<hr style="margin-top: 3%;">
+						<p id="title">Celebrating 10 Years of Excellence! The Honors Program is the ideal way for exceptional students to enjoy the high quality academic atmosphere at UNA. The Honors Program offers students a total undergraduate experience - academic, social, residential, and extracurricular. Over 90% of our graduates are employed in their degree fields or are pursuing graduate work. We want YOU to be a part of this special experience. Apply today! The Honors Program at North Alabama. It's going to be Great! All students admitted into the Honors Program qualify for the in-state tuition rate. Visit our Scholarship page for more information. </p>
+						<hr>
+					</div>
+					<div id="applyLandingPage"class="pull-left" style="margin-top: 3%;">
 						<center>
-							<img class="img-responsive" src="../images/shield.png"/><br>
-							<button class="btn btn-warning btn-block btn-lg active"><a href="../currentPages/applyTemplate.html">Honors Application</a></button>
-							<button class="btn btn-warning btn-block btn-lg active"><a href="../givetoday.html">Give Back Today</a></button>
+							<img class="img-responsive" id="shield" src="../images/shield.png"/><br>
+							<button class="btn btn-warning btn-block btn-lg active"><a style="text-decoration: none"href="../currentPages/applyTemplate.html">Honors Application</a></button>
+							<button class="btn btn-warning btn-block btn-lg active"><a style="text-decoration: none"href="../givetoday.html">Give Back Today</a></button>
 						</center>
 					</div>
 				</div>
 			</div>
-			<!--End Top Content-->
 
-			<!-- Bottom Content -->
-			<div class="container" style="margin-top: 5%;">
-				<section>
-  				<hr>
-  				<div class="row">
-  					<div class="col-sm-4">
-							<a href="../templates/prospectiveTemplate.html">
+				<section class="container" style="margin-top: 5%;">
+  					<div class="col-md-4">
+							<a style="text-decoration: none" href="../templates/prospectiveTemplate.html">
   						<div class="panel panel-default text-center" id="f1">
   							<div class="panel-body">
   								<i class="fa fa-user fa-2x"></i>
@@ -131,8 +132,8 @@
 							</a>
   					</div>
 
-  					<div class="col-sm-4">
-							<a href="../templates/currentTemplate.html">
+  					<div class="col-md-4">
+							<a style="text-decoration: none" href="../templates/currentTemplate.html">
   						<div class="panel panel-default text-center" id="f2">
   							<div class="panel-body">
   								<i class="fa fa-user-plus fa-2x"></i>
@@ -142,8 +143,8 @@
 							</a>
   					</div>
 
-						<div class="col-sm-4">
-							<a href="">
+						<div class="col-md-4">
+							<a style="text-decoration: none" href="">
 								<div class="panel panel-default text-center" id="f3">
 									<div class="panel-body">
 										<i class="fa fa-paw fa-2x"></i>
@@ -152,14 +153,13 @@
 								</div>
 							</a>
 						</div>
-					</div>
 				</div>
 			</section>
-		</div>
-		<!--End Bottom Content-->
+	</div>
+		<!--End Content-->
 
 		<!--Footer-->
-		<footer class="container-fluid" style="margin-top: 7%;">
+		<footer class="container-fluid">
 			<div class="container">
 				<div class="row">
 					<div class="social-foot col-xs-12 col-md-12">
@@ -232,9 +232,6 @@
 
 		<!--Internal CSS-->
 		<style>
-		body {
-      background: url(lionsbackground.png) no-repeat;
-    }
 		a {
 			color: inherit;
 		}

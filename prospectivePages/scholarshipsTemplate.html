@@ -166,9 +166,9 @@
 		<h1>Scholarships</h1>
 		<div class="carousel slide img-responsive" id="screenshot-carousel" data-ride="carousel">
         	<ol class="carousel-indicators">
-        		<li data-target="#screenshot-carousel" style="background-color: #000;" data-slide-to="0" class="active"></li>
-        		<li data-target="#screenshot-carousel" style="background-color: #000;" data-slide-to="1"></li>
-        		<li data-target="#screenshot-carousel" style="background-color: #000;" data-slide-to="2"></li>
+        		<li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+        		<li data-target="#screenshot-carousel" data-slide-to="1"></li>
+        		<li data-target="#screenshot-carousel" data-slide-to="2"></li>
         	</ol>
 
         	<div class="carousel-inner img-responsive">
@@ -317,6 +317,13 @@ p {
 		}
 		li:hover {
 			background-color: #db9f11;
+		}
+		/* this fixes the carousel buttons from default to black and active is gold */
+		.carousel-indicators li {
+			background: #000000;
+		}
+		.carousel-indicators .active {
+			background: #bd9f11;
 		}
 		</style>
 		<!--End Internal CSS-->

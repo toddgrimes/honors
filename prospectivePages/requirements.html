@@ -168,11 +168,6 @@
 
     <div class="container">
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-				<ol class="carousel-indicators">
-					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					<li data-target="#myCarousel" data-slide-to="1"></li>
-					<li data-target="#myCarousel" data-slide-to="2"></li>
-				</ol>
 
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
@@ -243,6 +238,22 @@
             </div>
 					</div>
 				</div>
+
+				<div class="carousel-controls">
+					<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>
+					<a class="right carousel-control" href="#myCarousel" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+				</div>
+
+
 			</div>
 		</div>
 
@@ -339,6 +350,7 @@
 		}
 		.carousel-indicators {
 			bottom: -50px;
+			top: -6px;
 		}
 		/* this fixes the carousel buttons from default to black and active is gold */
 		.carousel-indicators li {
@@ -347,6 +359,16 @@
 		.carousel-indicators .active {
 			background: #bd9f11;
 		}
+		.carousel-controls {
+ 			position:relative;
+  		width:100px;
+  		margin:0 auto;
+			background-image: none;
+			top: 25px;
+		}
+		.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
 		</style>
 		<!--End Internal CSS-->
 

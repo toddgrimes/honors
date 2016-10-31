@@ -91,6 +91,9 @@ footer {
   #unaHeader {
     display: none;
   }
+  #toggleHome {
+    display: block!important;
+  }
   #honorsText {
     display: none;
   }

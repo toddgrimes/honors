@@ -168,9 +168,9 @@
 				<p align="center">I wondered why somebody didn't do something. Then I realized, I am somebody. ~Author Unknown</p>
 				<div class="carousel slide img-responsive" style="margin-right: 5%;" id="screenshot-carousel" data-ride="carousel" style="margin-top: 3%;">
         	<ol class="carousel-indicators">
-        		<li data-target="#screenshot-carousel" style="background-color: #000;" data-slide-to="0" class="active"></li>
-        		<li data-target="#screenshot-carousel" style="background-color: #000;" data-slide-to="1"></li>
-        		<li data-target="#screenshot-carousel" style="background-color: #000;" data-slide-to="2"></li>
+        		<li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+        		<li data-target="#screenshot-carousel" data-slide-to="1"></li>
+        		<li data-target="#screenshot-carousel" data-slide-to="2"></li>
         	</ol>
         	<div class="carousel-inner img-responsive">
         		<div class="item active">
@@ -352,6 +352,13 @@
 		}
 		li:hover {
 			color: #edcf88;
+		}
+		/* this fixes the carousel buttons from default to black and active is gold */
+		.carousel-indicators li {
+			background: #000000;
+		}
+		.carousel-indicators .active {
+			background: #bd9f11;
 		}
 		</style>
 		<!--End Internal CSS-->

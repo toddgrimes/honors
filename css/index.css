@@ -77,6 +77,18 @@ footer {
   #applyImage {
     display: none;
   }
+  #staffImage {
+    display: none;
+  }
+  #melissaStudents {
+      text-align: center;
+  }
+  #staffTitle {
+      text-align: center;
+  }
+  #vinceLaura {
+    text-align: center;
+  }
   #unaLogo {
     width: 120px;
     height: 30px;

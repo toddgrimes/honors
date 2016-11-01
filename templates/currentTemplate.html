@@ -166,12 +166,6 @@
 			<h1>Welcome Current Students</h1>
 			<div class="col-md-6 pull left" style="margin-top: 4%;">
 				<div class="carousel slide img-responsive" style="margin-right: 5%;" id="screenshot-carousel" data-ride="carousel">
-        	<ol class="carousel-indicators">
-        		<li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
-        		<li data-target="#screenshot-carousel" data-slide-to="1"></li>
-        		<li data-target="#screenshot-carousel" data-slide-to="2"></li>
-        		<li data-target="#screenshot-carousel" data-slide-to="3"></li>
-        	</ol>
 
         	<div class="carousel-inner img-responsive">
         		<div class="item active">
@@ -187,6 +181,14 @@
         			<img class="img-responsive" src="../images/currentHome/c3.jpg" style="height: 300px; width: 500px; overflow: hidden;" alt="Text of the image">
         		</div>
         	</div>
+
+          <ol class="carousel-indicators">
+            <li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#screenshot-carousel" data-slide-to="1"></li>
+            <li data-target="#screenshot-carousel" data-slide-to="2"></li>
+            <li data-target="#screenshot-carousel" data-slide-to="3"></li>
+          </ol>
+
 				</div>
 				<!-- End Carousel inner -->
 			</div>
@@ -301,6 +303,20 @@
 		}
 		.carousel-indicators .active {
 			background: #bd9f11;
+		}
+		.carousel-indicators {
+			bottom: -10px;
+		}
+		.carousel-controls {
+ 			position:relative;
+  		width:100px;
+  		margin:0 auto;
+			background-image: none;
+			top: 25px;
+		}
+		.carousel-control.left, .carousel-control.right {
+    	background-image: none;
+			color: #333;;
 		}
 		</style>
 		<!--End Internal CSS-->

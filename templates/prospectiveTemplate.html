@@ -303,9 +303,7 @@
 		li:hover {
 			color: #edcf88;
 		}
-    .carousel-indicators {
-			bottom: -50px;
-		}
+
     /* this fixes the carousel buttons from default to black and active is gold */
 		.carousel-indicators li {
 			background: #000000;
@@ -314,7 +312,7 @@
 			background: #bd9f11;
 		}
 		.carousel-indicators {
-			bottom: -50px;
+      bottom: -50px;
 			top: -6px;
 		}
 		.carousel-controls {
@@ -322,12 +320,23 @@
   		width:100px;
   		margin:0 auto;
 			background-image: none;
-			top: 25px;
+      top: 25px;
 		}
-		.carousel-control.left, .carousel-control.right {
+    .carousel-control.left, .carousel-control.right {
     	background-image: none;
-			color: #333;;
+			color: #bd9f11;
 		}
+    @media screen and (max-width: 990px){
+      .carousel-controls {
+        position:relative;
+        width:110px;
+        margin:0 auto;
+        background-image: none;
+        top: -22px;
+    	}
+    }
+
+
 		</style>
 		<!--End Internal CSS-->
 

@@ -115,12 +115,12 @@
 
 				<a id="give" class="btn btn-warning navbar-btn navbar-right active" href="../templates/givetoday.html">Give Now</a>
 				<a id="apply" class="btn btn-warning navbar-btn navbar-right active" href="../currentPages/applyTemplate.html" style="margin-right: 1%;">Apply Now</a>
-				<ul class="nav navbar-nav pull-center" style="text-align:center; position: relative; and display: inline-block;">
+				<ul id="topnavbar"class="nav navbar-nav pull-center" style="text-align:center; position: relative; and display: inline-block;">
 				<li class="dropdown">
 				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Current Students
 				<span class="caret" /></a>
 				<ul class="dropdown-menu">
-		      <li><a href="../templates/currentTemplate.html">Home</a></li>
+		      <li id="ted"><a href="../templates/currentTemplate.html">Home</a></li>
 					<li><a href="../currentPages/civicengagement.html">Civic Engagement</a></li>
 			    <li><a href="../currentPages/reads.html">Honors Program Reads</a></li>
 			    <li><a href="../currentPages/capstone.html">Honors Capstone Courses</a></li>
@@ -264,15 +264,24 @@
 		a:hover {
 		  color: inherit;
 		}
+		
 		hr {
 		  border-color: #eb9316;
 		}
 		li {
 			display: inline;
 		}
-		li:hover {
+		
+		#topnavbar>li:hover {
 			background-color: #db9f11;
 		}
+			#ted.li:hover{
+			background-color: black;
+		}
+	
+	
+	
+	
 /* Todd's List crap */
 		ul.content-unorderedlist {
 			list-style: circle inside;

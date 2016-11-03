@@ -11,6 +11,15 @@ body {
   padding: 15px;
   border-bottom: 1px solid white;
 }
+#indexImage1 {
+	position: relative;
+}
+#indexImage2 {
+	position: relative;
+}
+#indexImage3 {
+	position: relative;
+}
 #f1 {
   background-color: #eb9316;
   transition: all 0.5s ease;
@@ -80,8 +89,20 @@ footer {
   #staffImage {
     display: none;
   }
+  #indexImage1 {
+	  margin-bottom: 10px;
+  }
+  #indexImage2 {
+	  margin-bottom: 10px;
+  }
+  h3 span {
+	font-size: 12px;
+  }
   #melissaStudents {
       text-align: center;
+  }
+  #pictureContainer {
+	margin-left: 8%;
   }
   #staffTitle {
       text-align: center;

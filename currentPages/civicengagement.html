@@ -17,8 +17,8 @@
 
 	<body style="background: url(../images/texture.png);">
 		<!--Header-->
-		<div id="unaHeader" class="container header" data-toggle="collapse" style="text-decoration: none; color: white; font-size: 17px; text-transform: uppercase; margin: 0 auto; width: 100%;">
-		<img class="img-responsive pull-left" id="unaLogo" src="../images/UNALogo.png"/ style="margin-left: 13%;">
+		<div id="unaHeader" class="container header" style="text-decoration: none; color: white; font-size: 17px; text-transform: uppercase; margin: 0 auto; width: 100%;">
+		<a href="http://www.una.edu"><img class="img-responsive pull-left" src="../images/UNALogo.png"/ style="margin-left: 13%;"></a>
 		<ul class="nav navbar-nav navbar-right" id="main-nav" style="margin-right: 10%;">
 		<li class="dropdown"><a class="dropdown-toggle ui-link" data-toggle="dropdown" style="background-color: inherit"; aria-expanded="false">Apply<span class="glyphicon glyphicon-chevron-down"></span></a>
 		<ul class="dropdown-menu">
@@ -98,66 +98,68 @@
 		<li class="hidden-sm"><a class="ui-link" href="/lioncam/index.html" target="_self" style="background-color: inherit";>LionCam <span class="glyphicon glyphicon-facetime-video" style="color:#db9f11;"></span></a></li>
 		</ul>
 		</div>
-		   <nav class="navbar navbar-inverse" id="my-navbar" style="background-color: #333;">
-			<div class="container">
-				<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-				<span class="icon-bar" style="color:white;"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				</button>
+		<nav class="navbar navbar-inverse" id="my-navbar" style="background-color: #333;">
+ 	<div class="container">
+ 		<div id="navbarHeaderToggle" class="navbar-header row">
+      	<a href="http://www.una.edu"><img id="unaLogoResponsive" style="display:none;" src="../images/UNALogo.png"></a>
+			  <a href="../templates/index.html"><b><p id="toggleHome" style="color: white; display: none;">Honors Home</p></b></a>
+ 		<button style="margin-top: -7.5%;" id="navbarToggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+ 		<span class="icon-bar" style="color:white;"></span>
+ 		<span class="icon-bar"></span>
+ 		<span class="icon-bar"></span>
+ 		<span class="icon-bar"></span>
+ 		</button>
 
-				<p id="honorsText" class="navbar-brand" style="color: white;"><a href="../templates/index.html">Honors Program</a></p>
-				</div><!-- Navbar Header-->
-				<div class="collapse navbar-collapse" id="navbar-collapse">
+ 		<p id="honorsText" class="navbar-brand" style="color: white;"><a href="../templates/index.html">Honors Program</a></p>
+ 		</div><!-- Navbar Header-->
+ 		<div class="collapse navbar-collapse" id="navbar-collapse">
 
-				<a id="give" class="btn btn-warning navbar-btn navbar-right active" href="../templates/givetoday.html">Give Now</a>
-				<a id="apply" class="btn btn-warning navbar-btn navbar-right active" href="../currentPages/applyTemplate.html" style="margin-right: 1%;">Apply Now</a>
-				<ul class="nav navbar-nav pull-center" style="text-align:center; position: relative; and display: inline-block;">
-				<li class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Current Students
-				<span class="caret" /></a>
-				<ul class="dropdown-menu">
-		      <li><a href="../templates/currentTemplate.html">Home</a></li>
-					<li><a href="../currentPages/civicengagement.html">Civic Engagement</a></li>
-			    <li><a href="../currentPages/reads.html">Honors Program Reads</a></li>
-			    <li><a href="../currentPages/capstone.html">Honors Capstone Courses</a></li>
-		      <li><a href="../currentPages/contracting_courses.html">Honors Contracting Courses</a></li>
-			    <li><a href="../prospectivePages/requirements.html">Program Requirements</a></li>
-			    <li><a href="../prospectivePages/honorsStaff.html">Current Staff</a></li>
-			    <li><a href="../currentPages/forms.html">Forms</a></li>
-			  	<li><a href="../currentPages/honors_courses.html">Honors Courses</a></li>
-				</ul>
-				</li>
-				<li class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Prospective Students
-				<span class="caret" /></a>
-				<ul class="dropdown-menu">
-		      <li><a href="../templates/prospectiveTemplate.html">Home</a></li>
-					<li><a href="../currentPages/applyTemplate.html">Apply Today</a></li>
-			    <li><a href="../prospectivePages/participate.html">Participate</a></li>
-			    <li><a href="../prospectivePages/scholarshipsTemplate.html">Scholarships</a></li>
-			    <li><a href="../prospectivePages/FAQ.html">FAQs</a></li>
-			    <li><a href="../prospectivePages/honorsStaff.html">Honors Program Staff</a></li>
-			    <li><a href="../prospectivePages/requirements.html">Program Requirements</a></li>
-				</ul>
-				</li>
-				<li class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Parents
-				<span class="caret" /></a>
-				<ul class="dropdown-menu">
-		      <li><a href="../templates/parentsTemplate.html">Home</a></li>
-			    <li><a href="../prospectivePages/scholarshipsTemplate.html">Scholarships</a></li>
-				  <li><a href="../prospectivePages/requirements.html">Program Requirements</a></li>
-				</ul>
-				</li>
-				<li><a href="../templates/friendsandalumni.html">Friends and Alumni</a></li>
-				<li><a href="../prospectivePages/honorsStaff.html">Faculty and Staff</a></li>
-				</ul>
-				</div>
-				</div><!-- End Container-->
-				</nav><!-- End navbar -->
+ 		<a id="give" class="btn btn-warning navbar-btn navbar-right active" href="../templates/givetoday.html">Give Today</a>
+ 		<a id="apply" class="btn btn-warning navbar-btn navbar-right active" href="../currentPages/applyTemplate.html" style="margin-right: 1%;">Honors Application</a>
+ 		<ul class="nav navbar-nav pull-center" style="text-align:center; position: relative; and display: inline-block;">
+ 		<li class="dropdown">
+ 		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Current Students
+ 		<span class="caret" /></a>
+ 		<ul class="dropdown-menu">
+       <li><a href="../templates/currentTemplate.html">Home</a></li>
+ 			<li><a href="../currentPages/civicengagement.html">Civic Engagement</a></li>
+ 	    <li><a href="../currentPages/reads.html">Honors Program Reads</a></li>
+ 	    <li><a href="../currentPages/capstone.html">Honors Capstone Courses</a></li>
+       <li><a href="../currentPages/contracting_courses.html">Honors Contracting Courses</a></li>
+ 	    <li><a href="../prospectivePages/requirements.html">Program Requirements</a></li>
+ 	    <li><a href="../prospectivePages/honorsStaff.html">Current Staff</a></li>
+ 	    <li><a href="../currentPages/forms.html">Forms</a></li>
+ 	  	<li><a href="../currentPages/honors_courses.html">Honors Courses</a></li>
+ 		</ul>
+ 		</li>
+ 		<li class="dropdown">
+ 		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Prospective Students
+ 		<span class="caret" /></a>
+ 		<ul class="dropdown-menu">
+       <li><a href="../templates/prospectiveTemplate.html">Home</a></li>
+ 			<li><a href="../currentPages/applyTemplate.html">Apply Today</a></li>
+ 	    <li><a href="../prospectivePages/participate.html">Participate</a></li>
+ 	    <li><a href="../prospectivePages/scholarshipsTemplate.html">Scholarships</a></li>
+ 	    <li><a href="../prospectivePages/FAQ.html">FAQs</a></li>
+ 	    <li><a href="../prospectivePages/honorsStaff.html">Honors Program Staff</a></li>
+ 	    <li><a href="../prospectivePages/requirements.html">Program Requirements</a></li>
+ 		</ul>
+ 		</li>
+ 		<li class="dropdown">
+ 		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Parents
+ 		<span class="caret" /></a>
+ 		<ul class="dropdown-menu">
+       <li><a href="../templates/parentsTemplate.html">Home</a></li>
+ 	    <li><a href="../prospectivePages/scholarshipsTemplate.html">Scholarships</a></li>
+ 		  <li><a href="../prospectivePages/requirements.html">Program Requirements</a></li>
+ 		</ul>
+ 		</li>
+ 		<li><a href="../templates/friendsandalumni.html">Friends and Alumni</a></li>
+ 		<li><a href="../prospectivePages/honorsStaff.html">Faculty and Staff</a></li>
+ 		</ul>
+ 		</div>
+ 		</div><!-- End Container-->
+ 		</nav><!-- End navbar -->
 				<!--End Header-->
 
 		<!-- Content Goes Here -->
@@ -167,11 +169,11 @@
 			<hr/>
 				<p align="center">I wondered why somebody didn't do something. Then I realized, I am somebody. ~Author Unknown</p>
 				<div class="carousel slide img-responsive" style="margin-right: 5%;" id="screenshot-carousel" data-ride="carousel" style="margin-top: 3%;">
-        	<ol class="carousel-indicators">
-        		<li data-target="#screenshot-carousel" style="background-color: #000;" data-slide-to="0" class="active"></li>
-        		<li data-target="#screenshot-carousel" style="background-color: #000;" data-slide-to="1"></li>
-        		<li data-target="#screenshot-carousel" style="background-color: #000;" data-slide-to="2"></li>
-        	</ol>
+					<ol class="carousel-indicators">
+						<li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#screenshot-carousel" data-slide-to="1"></li>
+						<li data-target="#screenshot-carousel" data-slide-to="2"></li>
+					</ol>
         	<div class="carousel-inner img-responsive">
         		<div class="item active">
         			<img class="img-responsive" src="../images/civicEngagement/6.jpg" style="height: 300px; width: 500px; overflow: hidden;" alt="Text of the image">
@@ -183,6 +185,9 @@
         			<img class="img-responsive" src="../images/civicEngagement/8.jpg" style="height: 300px; width: 500px; overflow: hidden;" alt="Text of the image">
         		</div>
         	</div>
+
+
+
 				</div>
 	</div>
 	<div class="col-md-6 pull right">
@@ -203,16 +208,16 @@
 					</ul>
 		<hr style=" width: 600px;">
 				<p align="left" style="width: 600px;">While the desire to serve must come from within, we believe service is an essential part of the college experience.  Below you will find contact information concerning a number of service organizations and opportunities in the Shoals.  Please consider what kind of difference you can make.</p>
-
+				<h5>Click below to download and read more</h5>
+				<form method="get" action="../documents/CivicEngagement.docx">
+					<button class="btn btn-primary" type="submit">Shoals Area Volunteer</button>
+				</form>
 	</div>
-	<h5>Click here to download</h5>
-	<form method="get" action="../documents/CivicEngagement.docx">
-		<button class="btn btn-primary" type="submit">Shoals Area Volunteer</button>
-	</form>
+
 	</div>
 
 		<!--Footer-->
-		<footer class="container-fluid" style="margin-top: 7%;">
+		<footer class="container-fluid" style="margin-top: 5%;">
 			<div class="container">
 				<div class="row">
 					<div class="social-foot col-xs-12 col-md-12">
@@ -251,32 +256,32 @@
 						</a>
 					</div>
 					<div class="col-xs-12 col-sm-3 col-md-3 hidden-xs">
-						<ul><li><a href="/administration/accreditation.html" target="_self">Accreditation</a></li></br></br>
-							<li><a href="/administration/index.html" target="_self">Administration</a></li></br></br>
+						<ul><li><a href="https://una.edu/administration/accreditation.html" target="_self">Accreditation</a></li></br></br>
+							<li><a href="https://una.edu/administration/index.html" target="_self">Administration</a></li></br></br>
 							<li><a href="https://alumni.una.edu/sslpage.aspx?pid=193" target="_self">Alumni OnLION</a></li></br></br>
-							<li><a href="/pressroom/" target="_self">Campus News</a></li>
+							<li><a href="https://una.edu/pressroom/" target="_self">Campus News</a></li>
 						</ul>
 					</div>
 					<div class="col-xs-12 col-sm-3 col-md-3 hidden-xs">
 						<ul>
-							<li><a href="/police/index.html" target="_self">Campus Police</a></li></br></br>
-							<li><a href="/emergency-management/index.html" target="_self">Emergency Info</a></li></br></br>
-							<li><a href="/humanresources/employment.html" target="_self">Employment</a></li></br></br>
+							<li><a href="https://una.edu/police/index.html" target="_self">Campus Police</a></li></br></br>
+							<li><a href="https://una.edu/emergency-management/index.html" target="_self">Emergency Info</a></li></br></br>
+							<li><a href="https://una.edu/humanresources/employment.html" target="_self">Employment</a></li></br></br>
 							<li><a href="http://www.florala.net/" target="_self">The Flor-Ala</a></li>
 						</ul>
 					</div>
 					<div class="col-xs-12 col-sm-3 col-md-3 hidden-xs">
 						<ul>
 							<li><a href="https://www.una.edu/campaign/index.html" target="_self">Give to UNA</a></li></br></br>
-							<li><a href="/lionalert/index.html" target="_self">Lion Alert</a></li></br></br>
-							<li><a href="/map/" target="_self">Map/Directions</a></li></br></br>
-							<li><a href="/administration/mission-statement.html" target="_self">Mission Statement</a></li>
+							<li><a href="https://una.edu/lionalert/index.html" target="_self">Lion Alert</a></li></br></br>
+							<li><a href="https://una.edu/map/" target="_self">Map/Directions</a></li></br></br>
+							<li><a href="https://una.edu/administration/mission-statement.html" target="_self">Mission Statement</a></li>
 						</ul>
 					</div>
 				</div>
 				<div class="row">
 					<div class="copyright col-xs-12 col-md-12">
-						<small><span class="pull-left">Copyright © 2016 | University of North Alabama | All rights reserved.</span><span class="pull-right"><a href="/web/cascade/find-your-web-lion.html" target="_self">Website Feedback</a></span></small>
+						<small><span class="pull-left">Copyright © 2016 | University of North Alabama | All rights reserved.</span><span class="pull-right"><a href="https://una.edu/web/cascade/find-your-web-lion.html" target="_self">Website Feedback</a></span></small>
 					</div>
 				</div>
 			</div>
@@ -338,7 +343,7 @@
 
 
 
-		a {
+	a {
 			color: inherit;
 		}
 		a:hover {
@@ -347,11 +352,32 @@
 		hr {
 		  border-color: #eb9316;
 		}
-		li.ulli {
-		display: black;
+		li {
+		display: inline;
 		}
-		li.ulli:hover {
-			background-color: #db9f11;
+		li:hover {
+			color: #edcf88;
+		}
+		/* this fixes the carousel buttons from default to black and active is gold */
+		.carousel-indicators li {
+			background: #000000;
+		}
+		.carousel-indicators .active {
+			background: #bd9f11;
+		}
+		.carousel-indicators {
+			bottom: -10px;
+		}
+		.carousel-controls {
+ 			position:relative;
+  		width:100px;
+  		margin:0 auto;
+			background-image: none;
+			top: 25px;
+		}
+		.carousel-control.left, .carousel-control.right {
+    	background-image: none;
+			color: #333;;
 		}
 		</style>
 		<!--End Internal CSS-->

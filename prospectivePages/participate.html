@@ -17,9 +17,8 @@
 
 	<body style="background: url(../images/texture.png);">
 		<!--Header-->
-		<div id="unaHeader" class="container header" data-toggle="collapse" style="text-decoration: none; color: white; font-size: 17px; text-transform: uppercase; margin: 0 auto; width: 100%;">
-		<img class="img-responsive pull-left" id="unaLogo" src="../images/UNALogo.png"/ style="margin-left: 13%;">
-		<ul class="nav navbar-nav navbar-right" id="main-nav" style="margin-right: 10%;">
+		<div id="unaHeader" class="container header" style="text-decoration: none; color: white; font-size: 17px; text-transform: uppercase; margin: 0 auto; width: 100%;">
+<a href="http://www.una.edu"><img class="img-responsive pull-left" src="../images/UNALogo.png"/ style="margin-left: 13%;"></a>		<ul class="nav navbar-nav navbar-right" id="main-nav" style="margin-right: 10%;">
 		<li class="dropdown"><a class="dropdown-toggle ui-link" data-toggle="dropdown" style="background-color: inherit"; aria-expanded="false">Apply<span class="glyphicon glyphicon-chevron-down"></span></a>
 		<ul class="dropdown-menu">
 		<li class="dropdown-header"><strong>GET STARTED!</strong></li>
@@ -98,81 +97,79 @@
 		<li class="hidden-sm"><a class="ui-link" href="/lioncam/index.html" target="_self" style="background-color: inherit";>LionCam <span class="glyphicon glyphicon-facetime-video" style="color:#db9f11;"></span></a></li>
 		</ul>
 		</div>
-		   <nav class="navbar navbar-inverse" id="my-navbar" style="background-color: #333;">
-			<div class="container">
-				<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-				<span class="icon-bar" style="color:white;"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				</button>
+		<nav class="navbar navbar-inverse" id="my-navbar" style="background-color: #333;">
+ 	<div class="container">
+ 		<div id="navbarHeaderToggle" class="navbar-header row">
+      	<a href="http://www.una.edu"><img id="unaLogoResponsive" style="display:none;" src="../images/UNALogo.png"></a>
+			  <a href="../templates/index.html"><b><p id="toggleHome" style="color: white; display: none;">Honors Home</p></b></a>
+ 		<button style="margin-top: -7.5%;" id="navbarToggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+ 		<span class="icon-bar" style="color:white;"></span>
+ 		<span class="icon-bar"></span>
+ 		<span class="icon-bar"></span>
+ 		<span class="icon-bar"></span>
+ 		</button>
 
-				<p id="honorsText" class="navbar-brand" style="color: white;"><a href="../templates/index.html">Honors Program</a></p>
-				</div><!-- Navbar Header-->
-				<div class="collapse navbar-collapse" id="navbar-collapse">
+ 		<p id="honorsText" class="navbar-brand" style="color: white;"><a href="../templates/index.html">Honors Program</a></p>
+ 		</div><!-- Navbar Header-->
+ 		<div class="collapse navbar-collapse" id="navbar-collapse">
 
-				<a id="give" class="btn btn-warning navbar-btn navbar-right active" href="../templates/givetoday.html">Give Now</a>
-				<a id="apply" class="btn btn-warning navbar-btn navbar-right active" href="../currentPages/applyTemplate.html" style="margin-right: 1%;">Apply Now</a>
-				<ul class="nav navbar-nav pull-center" style="text-align:center; position: relative; and display: inline-block;">
-				<li class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Current Students
-				<span class="caret" /></a>
-				<ul class="dropdown-menu">
-		      <li><a href="../templates/currentTemplate.html">Home</a></li>
-					<li><a href="../currentPages/civicengagement.html">Civic Engagement</a></li>
-			    <li><a href="../currentPages/reads.html">Honors Program Reads</a></li>
-			    <li><a href="../currentPages/capstone.html">Honors Capstone Courses</a></li>
-		      <li><a href="../currentPages/contracting_courses.html">Honors Contracting Courses</a></li>
-			    <li><a href="../prospectivePages/requirements.html">Program Requirements</a></li>
-			    <li><a href="../prospectivePages/honorsStaff.html">Current Staff</a></li>
-			    <li><a href="../currentPages/forms.html">Forms</a></li>
-			  	<li><a href="../currentPages/honors_courses.html">Honors Courses</a></li>
-				</ul>
-				</li>
-				<li class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Prospective Students
-				<span class="caret" /></a>
-				<ul class="dropdown-menu">
-		      <li><a href="../templates/prospectiveTemplate.html">Home</a></li>
-					<li><a href="../currentPages/applyTemplate.html">Apply Today</a></li>
-			    <li><a href="../prospectivePages/participate.html">Participate</a></li>
-			    <li><a href="../prospectivePages/scholarshipsTemplate.html">Scholarships</a></li>
-			    <li><a href="../prospectivePages/FAQ.html">FAQs</a></li>
-			    <li><a href="../prospectivePages/honorsStaff.html">Honors Program Staff</a></li>
-			    <li><a href="../prospectivePages/requirements.html">Program Requirements</a></li>
-				</ul>
-				</li>
-				<li class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Parents
-				<span class="caret" /></a>
-				<ul class="dropdown-menu">
-		      <li><a href="../templates/parentsTemplate.html">Home</a></li>
-			    <li><a href="../prospectivePages/scholarshipsTemplate.html">Scholarships</a></li>
-				  <li><a href="../prospectivePages/requirements.html">Program Requirements</a></li>
-				</ul>
-				</li>
-				<li><a href="../templates/friendsandalumni.html">Friends and Alumni</a></li>
-				<li><a href="../prospectivePages/honorsStaff.html">Faculty and Staff</a></li>
-				</ul>
-				</div>
-				</div><!-- End Container-->
-				</nav><!-- End navbar -->
+ 		<a id="give" class="btn btn-warning navbar-btn navbar-right active" href="../templates/givetoday.html">Give Today</a>
+ 		<a id="apply" class="btn btn-warning navbar-btn navbar-right active" href="../currentPages/applyTemplate.html" style="margin-right: 1%;">Honors Application</a>
+ 		<ul class="nav navbar-nav pull-center" style="text-align:center; position: relative; and display: inline-block;">
+ 		<li class="dropdown">
+ 		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Current Students
+ 		<span class="caret" /></a>
+ 		<ul class="dropdown-menu">
+       <li><a href="../templates/currentTemplate.html">Home</a></li>
+ 			<li><a href="../currentPages/civicengagement.html">Civic Engagement</a></li>
+ 	    <li><a href="../currentPages/reads.html">Honors Program Reads</a></li>
+ 	    <li><a href="../currentPages/capstone.html">Honors Capstone Courses</a></li>
+       <li><a href="../currentPages/contracting_courses.html">Honors Contracting Courses</a></li>
+ 	    <li><a href="../prospectivePages/requirements.html">Program Requirements</a></li>
+ 	    <li><a href="../prospectivePages/honorsStaff.html">Current Staff</a></li>
+ 	    <li><a href="../currentPages/forms.html">Forms</a></li>
+ 	  	<li><a href="../currentPages/honors_courses.html">Honors Courses</a></li>
+ 		</ul>
+ 		</li>
+ 		<li class="dropdown">
+ 		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Prospective Students
+ 		<span class="caret" /></a>
+ 		<ul class="dropdown-menu">
+       <li><a href="../templates/prospectiveTemplate.html">Home</a></li>
+ 			<li><a href="../currentPages/applyTemplate.html">Apply Today</a></li>
+ 	    <li><a href="../prospectivePages/participate.html">Participate</a></li>
+ 	    <li><a href="../prospectivePages/scholarshipsTemplate.html">Scholarships</a></li>
+ 	    <li><a href="../prospectivePages/FAQ.html">FAQs</a></li>
+ 	    <li><a href="../prospectivePages/honorsStaff.html">Honors Program Staff</a></li>
+ 	    <li><a href="../prospectivePages/requirements.html">Program Requirements</a></li>
+ 		</ul>
+ 		</li>
+ 		<li class="dropdown">
+ 		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Parents
+ 		<span class="caret" /></a>
+ 		<ul class="dropdown-menu">
+       <li><a href="../templates/parentsTemplate.html">Home</a></li>
+ 	    <li><a href="../prospectivePages/scholarshipsTemplate.html">Scholarships</a></li>
+ 		  <li><a href="../prospectivePages/requirements.html">Program Requirements</a></li>
+ 		</ul>
+ 		</li>
+ 		<li><a href="../templates/friendsandalumni.html">Friends and Alumni</a></li>
+ 		<li><a href="../prospectivePages/honorsStaff.html">Faculty and Staff</a></li>
+ 		</ul>
+ 		</div>
+ 		</div><!-- End Container-->
+ 		</nav><!-- End navbar -->
 				<!--End Header-->
 
 
 	<!-- This is where the pages content goes -->
-<div class = "container" style="padding-bottom: 25px">
+<div class = "container">
 <!-- image carousel -->
 	<div class="col-md-6 pull left">
 		<h1>The Honors Program at UNA - What Works for You?</h1>
-		<div id="myCarousel" class="" data-ride="carousel">
-  <!-- Indicators -->
-		<ol class="carousel-indicators">
-			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-			<li data-target="#myCarousel" data-slide-to="1"></li>
-			<li data-target="#myCarousel" data-slide-to="2"></li>
-		</ol>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+
 
   <!-- Wrapper for slides -->
 	<!-- Edit the links here to edit the pictures on the page -->
@@ -190,15 +187,20 @@
 			</div>
 		</div>
 
-		<!-- Left and right controls
-		<a class="left carousel-control" href="#myCarousel" role="button" 	data-slide=	"prev">
-			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-		<span class="sr-only">Previous</span>
-		</a>
-		<a class="right carousel-control" href="#myCarousel" role="button" 		data-slide="next">
-			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
-		</a> -->
+		<div class="carousel-controls">
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+
 		</div>
 	</div>
 <!-- Participate text -->
@@ -218,7 +220,7 @@
 
 
 		<!--Footer-->
-		<footer class="container-fluid" style="margin-top: 5%;">
+		<footer class="container-fluid" style="margin-top: 6%;">
 			<div class="container">
 				<div class="row">
 					<div class="social-foot col-xs-12 col-md-12">
@@ -257,32 +259,32 @@
 						</a>
 					</div>
 					<div class="col-xs-12 col-sm-3 col-md-3 hidden-xs">
-						<ul><li><a href="/administration/accreditation.html" target="_self">Accreditation</a></li>
-							<li><a href="/administration/index.html" target="_self">Administration</a></li>
-							<li><a href="https://alumni.una.edu/sslpage.aspx?pid=193" target="_self">Alumni OnLION</a></li>
-							<li><a href="/pressroom/" target="_self">Campus News</a></li>
+						<ul><li><a href="https://una.edu/administration/accreditation.html" target="_self">Accreditation</a></li></br></br>
+							<li><a href="https://una.edu/administration/index.html" target="_self">Administration</a></li></br></br>
+							<li><a href="https://alumni.una.edu/sslpage.aspx?pid=193" target="_self">Alumni OnLION</a></li></br></br>
+							<li><a href="https://una.edu/pressroom/" target="_self">Campus News</a></li>
 						</ul>
 					</div>
 					<div class="col-xs-12 col-sm-3 col-md-3 hidden-xs">
 						<ul>
-							<li><a href="/police/index.html" target="_self">Campus Police</a></li>
-							<li><a href="/emergency-management/index.html" target="_self">Emergency Info</a></li>
-							<li><a href="/humanresources/employment.html" target="_self">Employment</a></li>
+							<li><a href="https://una.edu/police/index.html" target="_self">Campus Police</a></li></br></br>
+							<li><a href="https://una.edu/emergency-management/index.html" target="_self">Emergency Info</a></li></br></br>
+							<li><a href="https://una.edu/humanresources/employment.html" target="_self">Employment</a></li></br></br>
 							<li><a href="http://www.florala.net/" target="_self">The Flor-Ala</a></li>
 						</ul>
 					</div>
 					<div class="col-xs-12 col-sm-3 col-md-3 hidden-xs">
 						<ul>
-							<li><a href="https://www.una.edu/campaign/index.html" target="_self">Give to UNA</a></li>
-							<li><a href="/lionalert/index.html" target="_self">Lion Alert</a></li>
-							<li><a href="/map/" target="_self">Map/Directions</a></li>
-							<li><a href="/administration/mission-statement.html" target="_self">Mission Statement</a></li>
+							<li><a href="https://www.una.edu/campaign/index.html" target="_self">Give to UNA</a></li></br></br>
+							<li><a href="https://una.edu/lionalert/index.html" target="_self">Lion Alert</a></li></br></br>
+							<li><a href="https://una.edu/map/" target="_self">Map/Directions</a></li></br></br>
+							<li><a href="https://una.edu/administration/mission-statement.html" target="_self">Mission Statement</a></li>
 						</ul>
 					</div>
 				</div>
 				<div class="row">
 					<div class="copyright col-xs-12 col-md-12">
-						<small><span class="pull-left">Copyright © 2016 | University of North Alabama | All rights reserved.</span><span class="pull-right"><a href="/web/cascade/find-your-web-lion.html" target="_self">Website Feedback</a></span></small>
+						<small><span class="pull-left">Copyright © 2016 | University of North Alabama | All rights reserved.</span><span class="pull-right"><a href="https://una.edu/web/cascade/find-your-web-lion.html" target="_self">Website Feedback</a></span></small>
 					</div>
 				</div>
 			</div>
@@ -304,9 +306,32 @@
 		display: inline;
 		}
 		li:hover {
-			background-color: #db9f11;
+			color: #edcf88;
 		}
-
+		/* this fixes the carousel buttons from default to black and active is gold */
+		.carousel-indicators li {
+			background: #000000;
+		}
+		.carousel-indicators .active {
+			background: #bd9f11;
+		}
+		.carousel-indicators {
+			bottom: -50px;
+			top: -6px;
+		}
+		.carousel-controls {
+ 			position:relative;
+  		width:100px;
+  		margin:0 auto;
+			background-image: none;
+			top: 5px;
+			margin-bottom: 7px;
+			margin-top: 7px;
+		}
+		.carousel-control.left, .carousel-control.right {
+    	background-image: none;
+			color: #bd9f11;
+		}
 		</style>
 		<!--End Internal CSS-->
 

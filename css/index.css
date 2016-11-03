@@ -72,9 +72,22 @@ footer {
   color: white;
   background-color: #333;
 }
+
 @media all and (max-width: 767px) {
   #applyImage {
     display: none;
+  }
+  #staffImage {
+    display: none;
+  }
+  #melissaStudents {
+      text-align: center;
+  }
+  #staffTitle {
+      text-align: center;
+  }
+  #vinceLaura {
+    text-align: center;
   }
   #unaLogo {
     width: 120px;
@@ -90,6 +103,9 @@ footer {
   #unaHeader {
     display: none;
   }
+  #toggleHome {
+    display: block!important;
+  }
   #honorsText {
     display: none;
   }
@@ -97,14 +113,20 @@ footer {
     background-color: #2d0c49;
   }
   #unaLogoResponsive {
+    display: block!important;
     width: 150px;
     height: 35px;
-    display: block;
   }
   #give {
     width: 100%;
   }
   #apply {
     width: 100%;
+  }
+  #navbarToggle {
+    margin-top: -5%;
+  }
+  #navbarHeaderToggle {
+    background-color: #2d0c49;
   }
 }

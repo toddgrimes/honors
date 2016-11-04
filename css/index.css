@@ -82,7 +82,27 @@ footer {
   background-color: #333;
 }
 
+@media all and (max-width: 1200px) {
+	h3 span {
+	font-size: 16px;
+	}
+}
+@media all and (max-width: 1000px) {
+	h3 span {
+	font-size: 14px;
+	}
+	#homeButtons {
+	margin-left: 20%;
+	}
+}
+
 @media all and (max-width: 767px) {
+  #homeButtons {
+  margin: 0 0 0 0;
+  }
+  #secondaryTitle {
+	  font-size: 18px;
+  }
   #applyImage {
     display: none;
   }
@@ -96,7 +116,8 @@ footer {
 	  margin-bottom: 10px;
   }
   h3 span {
-	font-size: 12px;
+	font-size: 16px;
+	margin-left: 80px;
   }
   #melissaStudents {
       text-align: center;
@@ -149,5 +170,21 @@ footer {
   }
   #navbarHeaderToggle {
     background-color: #2d0c49;
+  }
+}
+@media all and (max-width: 400px) {
+	h3 span {
+	font-size: 13px;
+	margin: 0 0 0 0;
+  }
+}
+@media all and (max-width: 500px) {
+	h3 span {
+	font-size: 12px;
+	margin: 0 0 0 0;
+  }
+  #secondaryTitle {
+	  font-size: 12px;
+	  font-weight: bold;
   }
 }

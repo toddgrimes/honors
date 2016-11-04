@@ -97,6 +97,9 @@ footer {
 }
 
 @media all and (max-width: 767px) {
+ .header {
+  border-bottom: none;
+  }
   #homeButtons {
   margin: 0 0 0 0;
   }
@@ -144,6 +147,10 @@ footer {
   }
   #unaHeader {
     display: none;
+  }
+  #unaNav {
+	display: block!important;
+	margin-bottom: -1%;
   }
   #toggleHome {
     display: block!important;

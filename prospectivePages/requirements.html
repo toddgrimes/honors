@@ -176,7 +176,7 @@
 						</div>
             <div class="col-md-5 col-sm-12">
 							<h5>University Honors Program Curriculum:</h5>
-							<ul class="content-unorderedlist">
+							<ul id="list" class="content-unorderedlist">
 								<li>Honors 101 Forum on Human Values (Fall, 1st Year)</li>
 								<li class="content-list">Honors 201 Civic Engagement Forum (Fall, 2nd Year)</li>
 								<li class="content-list">Honors 301 Global Issues Forum (Spring, 2nd or 3rd Year)</li>
@@ -203,7 +203,7 @@
 						</div>
             <div class="col-md-5">
 							<h5>University Honors Program Curriculum:</h5>
-							<ul class="content-unorderedlist">
+							<ul id="list" class="content-unorderedlist">
 								<li class="content-list">Honors 101 Forum on Human Values</li>
 								<li class="content-list">Honors 201 Civic Engagement Forum</li>
 								<li class="content-list">Honors 301 Global Issues Colloquium</li>
@@ -225,7 +225,7 @@
 						</div>
             <div class="col-md-5">
 							<p>The Honors Program Engineering Track allows students to complete Honors requirements at UNA and potentially to complete Honors requirements at a partner institution as a part of UNA’s Dual Degree Engineering Program.</p>
-							<ul class="content-unorderedlist">
+							<ul id="list" class="content-unorderedlist">
 								<li class="content-list">Honors 101 Forum on Human Values</li>
 								<li class="content-list">Honors 201 Civic Engagement Forum</li>
 								<li class="content-list">Honors 301 Global Issues Forum</li>
@@ -346,8 +346,14 @@
 		display: block;
 		}
 		li:hover {
-			color: #edcf88;
+			background-color: #db9f11;
 		}
+		#list>li:hover{
+			background-color: inherit;
+		}			
+		li.open.dropdown:hover {
+			background-color: inherit;
+			}
 
 		/* this fixes the carousel buttons from default to black and active is gold */
 		.carousel-indicators li {

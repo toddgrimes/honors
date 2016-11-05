@@ -164,7 +164,7 @@
 
 		<!-- Content Goes Here -->
     <div class = "container">
-		<div class="col-md-6 pull left">
+		<div class="col-md-5 pull left">
 			<h1>Civic Engagement</h1>
 			<hr/>
 				<p align="center">I wondered why somebody didn't do something. Then I realized, I am somebody. ~Author Unknown</p>
@@ -185,18 +185,20 @@
         			<img class="img-responsive" src="../images/civicEngagement/8.jpg" style="height: 300px; width: 500px; overflow: hidden;" alt="Text of the image">
         		</div>
         	</div>
-
-
-
 				</div>
+				<h1>About Civic Engagement</h1>
+		<p>Civic engagement expresses a core value of the Honors Program. Examples of civic engagement include volunteering with a community service organization,
+		registering to vote, donating blood, tutoring in an after school program, and many other things as well. Students in the Honors Program are strongly encouraged
+		to participate in public service in the Shoals area as well as in their home towns during the first year.</p>
 	</div>
-	<div class="col-md-6 pull right">
-			<h1 style=" white-space: nowrap;">Requirements</h1>
-
-				<ul>
+	<div class="col-md-7 pull right">
+		<div>
+			<h1>Requirements</h1>
+			<p>
+				<ul id="list">
 					<li>Completion of Honors 201 Forum- required to be completed during an Honors Students second year unless agreed upon by Honors Director.</li>
 					<li>A Statement of Purpose- to be completed no later than the first week of classes in the spring of the second year in the Program. Containing the following-
-						<ul>
+						<ul id="list">
 							<li>area of service (e.g. poverty, housing, children's issues, the environment, etc.) </li>
 							<li>reasoning behind their choice</li>
 							<li>a plan with specifics as to how the service goal will be reached</li>
@@ -204,14 +206,15 @@
 					</li>
 					<li>Each semester thereafter, until graduation from the Program, the student must complete no fewer than 10-15 hours of approved community service. The majority of these hours should be in their chosen service area.</li>
 					<li>Students can turn these hours into us either by the form below or by using the forms attached to their end of semester resume.</li>
-					<li>Click for Community Service Form</li>
-					</ul>
-		<hr style=" width: 600px;">
-				<p align="left" style="width: 600px;">While the desire to serve must come from within, we believe service is an essential part of the college experience.  Below you will find contact information concerning a number of service organizations and opportunities in the Shoals.  Please consider what kind of difference you can make.</p>
-				<h5>Click below to download and read more</h5>
+					<li><a href="https://www.una.edu/honors/docs/Service_S2016_YOURNAME.docx"><u>Click for Community Service Form</u></a></li>
+				</ul>
+				While the desire to serve must come from within, we believe service is an essential part of the college experience.  Below you will find contact information concerning a number of service organizations and opportunities in the Shoals.  Please consider what kind of difference you can make.
+				<b>Click below to download and read more</b>
 				<form method="get" action="../documents/CivicEngagement.docx">
 					<button class="btn btn-primary" type="submit">Shoals Area Volunteer</button>
 				</form>
+				</p>
+		</div>
 	</div>
 
 	</div>
@@ -249,7 +252,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div id="footerlist" class="row">
 					<div class="col-xs-12 col-sm-3 col-md-3">
 						<a href="/map/" target="_self" title="View Campus Maps">
 							<img alt="Map of University of North Alabama Campus" class="img-responsive" src="../images/unamap.png" data-pagespeed-url-hash="2882918269" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
@@ -291,59 +294,7 @@
 		<!--Internal CSS-->
 		<style>
 
-
-	a.hideDisplay{
-				position: relative;
-				z-index: 20;
-				color: #000;
-				text-decoration: none
-						}
-   a.hideDisplay:hover{
-						z-index: 30;
-						}
-
-	a.hideDisplay span.showDisplayOnHover{
-						display: none
-						}
-
-  a.hideDisplay:hover span.showDisplayOnHover{
-  display: block;
-  position: absolute;
-  font-size: 18px;
- line-height: 25px;
- width: auto;
- padding: 10px;
- border: 1px solid #666666;
- background-color: #c0cedd;
- color: #000000;
- text-align: left;
- }
-
-
-
-.list {
-	width: 750px;
-  -webkit-column-count: 6;
-   -moz-column-count: 6;
-   column-count: 6;
-  overflow:none;
-  padding-bottom: 2cm;
-
-}
-
-.slist {
-	width: 750px;
-  -webkit-column-count: 2;
-   -moz-column-count: 2;
-   column-count: 2;
-  overflow:none;
-
-
-}
-
-
-
-	a {
+		a {
 			color: inherit;
 		}
 		a:hover {
@@ -353,11 +304,22 @@
 		  border-color: #eb9316;
 		}
 		li {
-		display: inline;
+		display: inline, disc;
 		}
 		li:hover {
-			color: #edcf88;
+			background-color: #db9f11;
+			}
+		
+		#list>li:hover{
+			background-color: inherit;
 		}
+		#footerlist ul>li:hover{
+		background-color: inherit;
+		}
+		
+		li.open.dropdown:hover {
+			background-color: inherit;
+			}
 		/* this fixes the carousel buttons from default to black and active is gold */
 		.carousel-indicators li {
 			background: #000000;

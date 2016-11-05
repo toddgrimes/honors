@@ -310,7 +310,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div id="footerlist" class="row">
 					<div class="col-xs-12 col-sm-3 col-md-3">
 						<a href="/map/" target="_self" title="View Campus Maps">
 							<img alt="Map of University of North Alabama Campus" class="img-responsive" src="../images/unamap.png" data-pagespeed-url-hash="2882918269" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
@@ -364,8 +364,15 @@
 		display: inline;
 		}
 		li:hover {
-			color: #edcf88;
+			background-color: #db9f11;
+			}
+		#footerlist ul>li:hover{
+		background-color: inherit;
 		}
+		
+		li.open.dropdown:hover {
+			background-color: inherit;
+			}
 		</style>
 		<!--End Internal CSS-->
 

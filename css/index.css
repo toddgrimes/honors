@@ -84,12 +84,12 @@ footer {
 
 @media all and (max-width: 1200px) {
 	h3 span {
-	font-size: 16px;
+	font-size: 32px;
 	}
 }
 @media all and (max-width: 1000px) {
 	h3 span {
-	font-size: 14px;
+	font-size: 30px;
 	}
 	#homeButtons {
 	margin-left: 20%;
@@ -104,7 +104,7 @@ footer {
   margin: 0 0 0 0;
   }
   #secondaryTitle {
-	  font-size: 18px;
+	  font-size: 30px;
   }
   #applyImage {
     display: none;

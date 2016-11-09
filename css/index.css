@@ -86,12 +86,6 @@ footer {
 	h3 span {
 	font-size: 16px;
 	}
-  footer {
-    color: white;
-    background-color: #333;
-    position: absolute;
-    bottom: 0px;
-  }
 }
 @media all and (max-width: 1000px) {
 	h3 span {
@@ -100,12 +94,6 @@ footer {
 	#homeButtons {
 	margin-left: 20%;
 	}
-  footer {
-    color: white;
-    background-color: #333;
-    position: absolute;
-    bottom: 0px;
-  }
 }
 
 @media all and (max-width: 767px) {
@@ -195,12 +183,7 @@ footer {
   #navbarHeaderToggle {
     background-color: #2d0c49;
   }
-  footer {
-    color: white;
-    background-color: #333;
-    position: absolute;
-    bottom: 0px;
-  }
+
 }
 @media all and (max-width: 760px) {
 	h3 span {
@@ -216,12 +199,7 @@ footer {
   #indexImage3 {
 	  margin-left: 10%;
   }
-  footer {
-    color: white;
-    background-color: #333;
-    position: absolute;
-    bottom: 0px;
-  }
+
 }
 @media all and (max-width: 700px) {
 	h3 span {
@@ -237,12 +215,7 @@ footer {
   #indexImage3 {
 	  margin-left: -.5%;
   }
-  footer {
-    color: white;
-    background-color: #333;
-    position: absolute;
-    bottom: 0px;
-  }
+
 }
 @media all and (max-width: 600px) {
 	h3 span {
@@ -258,12 +231,7 @@ footer {
   #indexImage3 {
 	  margin-left: -.5%;
   }
-  footer {
-    color: white;
-    background-color: #333;
-    position: absolute;
-    bottom: 0px;
-  }
+
 }
 @media all and (max-width: 500px) {
 	h3 span {
@@ -283,24 +251,14 @@ footer {
 	  font-size: 12px;
 	  font-weight: bold;
   }
-  footer {
-    color: white;
-    background-color: #333;
-    position: absolute;
-    bottom: 0px;
-  }
+
 }
 @media all and (max-width: 450px) {
 	h3 span {
 	font-size: 20px;
 	margin: 0 0 0 0;
   }
-  footer {
-    color: white;
-    background-color: #333;
-    position: absolute;
-    bottom: 0px;
-  }
+
 }
 @media all and (max-width: 380px) {
 	h3 span {
@@ -316,10 +274,5 @@ footer {
   #indexImage3 {
 	  margin-left: -.5%;
   }
-  footer {
-    color: white;
-    background-color: #333;
-    position: absolute;
-    bottom: 0px;
-  }
+  
 }

@@ -114,12 +114,17 @@ footer {
   }
   #indexImage1 {
 	  margin-bottom: 10px;
+	  margin-left: 10%;
   }
   #indexImage2 {
 	  margin-bottom: 10px;
+	  margin-left: 10%;
+  }
+  #indexImage3 {
+	  margin-left: 10%;
   }
   h3 span {
-	font-size: 16px;
+	font-size: 24px;
 	margin-left: 80px;
   }
   #melissaStudents {
@@ -179,19 +184,88 @@ footer {
     background-color: #2d0c49;
   }
 }
-@media all and (max-width: 400px) {
+@media all and (max-width: 760px) {
 	h3 span {
-	font-size: 13px;
+	font-size: 36px;
 	margin: 0 0 0 0;
+  }
+  #indexImage1 {
+	  margin-left: 10%;
+  }
+  #indexImage2 {
+	  margin-left: 10%;
+  }
+  #indexImage3 {
+	  margin-left: 10%;
+  }
+}
+@media all and (max-width: 700px) {
+	h3 span {
+	font-size: 34px;
+	margin: 0 0 0 0;
+  }
+  #indexImage1 {
+	  margin-left: -.5%;
+  }
+  #indexImage2 {
+	  margin-left: -.5%;
+  }
+  #indexImage3 {
+	  margin-left: -.5%;
+  }
+}
+@media all and (max-width: 600px) {
+	h3 span {
+	font-size: 28px;
+	margin: 0 0 0 0;
+  }
+  #indexImage1 {
+	  margin-left: -.5%;
+  }
+  #indexImage2 {
+	  margin-left: -.5%;
+  }
+  #indexImage3 {
+	  margin-left: -.5%;
   }
 }
 @media all and (max-width: 500px) {
 	h3 span {
-	font-size: 12px;
+	font-size: 24px;
 	margin: 0 0 0 0;
+  }
+  #indexImage1 {
+	  margin-left: -.5%;
+  }
+  #indexImage2 {
+	  margin-left: -.5%;
+  }
+  #indexImage3 {
+	  margin-left: -.5%;
   }
   #secondaryTitle {
 	  font-size: 12px;
 	  font-weight: bold;
+  }
+}
+@media all and (max-width: 450px) {
+	h3 span {
+	font-size: 20px;
+	margin: 0 0 0 0;
+  }
+}
+@media all and (max-width: 380px) {
+	h3 span {
+	font-size: 13px;
+	margin: 0 0 0 0;
+  }
+  #indexImage1 {
+	  margin-left: -.5%;
+  }
+  #indexImage2 {
+	  margin-left: -.5%;
+  }
+  #indexImage3 {
+	  margin-left: -.5%;
   }
 }

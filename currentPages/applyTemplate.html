@@ -163,218 +163,231 @@
 
 		<!-- Content Goes Here -->
     <div class="container">
-			<div class="col-md-6 pull left">
-        <h1>How To Apply</h1>
+        <h1 style="text-align: center;">How To Apply</h1>
 				<p>The Honors Program is now accepting applications for <b>Fall 2017</b>. All applications will be reviewed and decisions made on a case by case basis. Applicants must also apply and be admitted to UNA to be accepted into the Honors Program.</p>
-        <p><b>Please complete <u>ALL FIELDS</u>.</b></p>
-		<img id="applyImage" class="img-responsive img-rounded" src="../images/apply/apply.jpg">
-			</div>
-			<div class="col-md-6">
-				<form action="honors_process.php" enctype="multipart/form-data" method="post">
-        <table border="0">
-        <tbody>
-        <tr style="border: none;">
-        <th colspan="2">
+        <p><b>Please complete <u>ALL FIELDS</u> below.</b></p>
+		
+			<form action="honors_process.php" enctype="multipart/form-data" method="post">
+				<h3>Step I: Personal Information</h3>
+				
+				<div class="form-group row">
+					<label id="formLabels" for="firstName" class="col-xs-2 col-form-label">First Name:</label>
+					<div class="col-xs-9" style="margin-left: 7%;">	
+						<input class="form-control col-xs-9" id="firstName" name="firstName" size="20" type="text">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label id="formLabels" for="middleName" class="col-xs-2 col-form-label">Middle Name:</label>
+					<div class="col-xs-9" style="margin-left: 7%;">	
+						<input class="form-control col-xs-9" id="middleName" name="middleName" size="20" type="text">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label id="formLabels" for="lastName" class="col-xs-2 col-form-label">Last Name:</label>
+					<div class="col-xs-9" style="margin-left: 7%;">	
+						<input class="form-control col-xs-9" id="lastName" name="lastName" size="20" type="text">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label id="formLabels" for="address" class="col-xs-2 col-form-label">Street:</label>
+					<div class="col-xs-9" style="margin-left: 7%;">	
+						<input class="form-control col-xs-9" id="address" name="address" size="20" type="text">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label id="formLabels" for="city" class="col-xs-2 col-form-label">City:</label>
+					<div class="col-xs-9" style="margin-left: 7%;">	
+						<input class="form-control col-xs-9" id="city" name="city" size="35" type="text">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label id="formLabels" for="state" class="col-xs-2 col-form-label">State:</label>
+					<div class="col-xs-9" style="margin-left: 7%;">	
+						<input class="form-control col-xs-9" id="state" name="state" size="2" type="text">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label id="formLabels" for="zip" class="col-xs-2 col-form-label">Zip Code:</label>
+					<div class="col-xs-9" style="margin-left: 7%;">	
+						<input class="form-control col-xs-9" id="zip" name="zip" size="10" type="text">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label id="formLabels" for="homePhone" class="col-xs-2 col-form-label">Home Phone Number:</label>
+					<div class="col-xs-9" style="margin-left: 7%;">	
+						<input class="form-control col-xs-9" id="homePhone" name="homePhone" size="20" type="text">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label id="formLabels" for="cellPhone" class="col-xs-2 col-form-label">Mobile Phone Number:</label>
+					<div class="col-xs-9" style="margin-left: 7%;">	
+						<input class="form-control col-xs-9" id="cellPhone" name="cellPhone" size="20" type="text">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label id="formLabels" for="email" class="col-xs-2 col-form-label">Email Address:</label>
+					<div class="col-xs-9" style="margin-left: 7%;">	
+						<input class="form-control col-xs-9" id="email" name="email" size="35" type="text">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label id="formLabels" for="actSat" class="col-xs-2 col-form-label">ACT/SAT Score:</label>
+					<div class="col-xs-9" style="margin-left: 7%;">	
+						<input class="form-control col-xs-9" id="actSat" name="actSat" size="10" type="text">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label  id="formLabels"for="classRankSize" class="col-xs-2 col-form-label">Class Rank/Size:</label>
+					<div class="col-xs-9" style="margin-left: 7%;">	
+						<input class="form-control col-xs-9" id="classRankSize" name="classRankSize" size="10" type="text">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label id="formLabels" for="highSchool" class="col-xs-2 col-form-label">High School:</label>
+					<div class="col-xs-9" style="margin-left: 7%;">	
+						<input class="form-control col-xs-9" id="highSchool" name="highSchool" size="35" type="text">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label id="formLabels" for="graduationDate" class="col-xs-2 col-form-label">Graduation Date:</label>
+					<div class="col-xs-9" style="margin-left: 7%;">	
+						<input class="form-control col-xs-9" id="graduationDate" name="graduationDate" size="10" type="text">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label id="formLabels" for="gpa" class="col-xs-2 col-form-label">GPA:</label>
+					<div class="col-xs-9" style="margin-left: 7%;">	
+						<input class="form-control col-xs-9" id="gpa" name="gpa" size="10" type="text">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label id="formLabels" for="major" class="col-xs-2 col-form-label">Intended Major:</label>
+					<div class="col-xs-9" style="margin-left: 7%;">	
+						<input class="form-control col-xs-9" id="major" name="major" size="20" type="text">
+					</div>
+				</div>
 
-        </th>
-        </tr>
-        <tr style="border: none;">
-        <th align="left" colspan="2"><br><br>
-        <h3>Step I: Personal Information</h3>
-        </th>
-        </tr>
-        <tr>
-        <td><label for="firstName">First Name:</label></td>
-        <td><input class="form-control" id="firstName" name="firstName" size="20" type="text"></td>
-        </tr>
-        <tr>
-        <td><label for="middleName">Middle Name:</label></td>
-        <td><input class="form-control" id="middleName" name="middleName" size="20" type="text"></td>
-        </tr>
-        <tr>
-        <td><label for="lastName">Last Name:</label></td>
-        <td><input class="form-control" id="lastName" name="lastName" size="20" type="text"></td>
-        </tr>
-        <tr>
-        <th colspan="2">
-        </th>
-        </tr>
-        <tr>
-        <td><label for="address">Street:</label></td>
-        <td><input class="form-control" id="address" name="address" size="35" type="text"></td>
-        </tr>
-        <tr>
-        <td><label for="city">City:</label></td>
-        <td><input class="form-control" id="city" name="city" size="35" type="text"></td>
-        </tr>
-        <tr>
-        <td><label for="state">State:</label></td>
-        <td><input class="form-control" id="state" name="state" size="2" type="text"></td>
-        </tr>
-        <tr>
-        <td><label for="zip">Zip Code:</label></td>
-        <td><input class="form-control" id="zip" name="zip" size="10" type="text"></td>
-        </tr>
-        <tr>
-        <td><label for="homePhone">Home Phone Number:</label></td>
-        <td><input class="form-control" id="homePhone" name="homePhone" size="20" type="text"></td>
-        </tr>
-        <tr>
-        <td><label for="cellPhone">Mobile Phone Number:</label></td>
-        <td><input class="form-control" id="cellPhone" name="cellPhone" size="20" type="text"></td>
-        </tr>
-        <tr>
-        <td><label for="email">Email Address:</label></td>
-        <td><input class="form-control" id="email" name="email" size="35" type="text"></td>
-        </tr>
-        <tr>
-        <td><label for="actSat">ACT/SAT Score:</label></td>
-        <td><input class="form-control" id="actSat" name="actSat" size="10" type="text"></td>
-        </tr>
-        <tr>
-        <td><label for="classRankSize">Class Rank/Class Size:</label></td>
-        <td><input class="form-control" id="classRankSize" name="classRankSize" size="10" type="text"></td>
-        </tr>
-        <tr>
-        <td><label for="highSchool">High School:</label></td>
-        <td><input class="form-control" id="highSchool" name="highSchool" size="35" type="text"></td>
-        </tr>
-        <tr>
-        <td><label for="graduationDate">Graduation Date:<br>(mm/dd/yyyy)</label></td>
-        <td><input class="form-control" id="graduationDate" name="graduationDate" size="10" type="text"></td>
-        </tr>
-        <tr>
-        <td><label for="gpa">GPA:</label></td>
-        <td><input class="form-control" id="gpa" name="gpa" size="10" type="text"></td>
-        </tr>
-        <tr>
-        <td><label for="major">Intended Major:<br></label></td>
-        <td><input class="form-control" id="major" name="major" size="20" title="Optional" type="text"></td>
-        </tr>
-        <tr style="border: none;">
-        <th align="left" colspan="2"><br><br>
-        <h3>Step II: Upload Resume and Essay</h3>
-        </th>
-        </tr>
-        <tr>
-        <td>Resume of honors, awards, and activities (9th through 12th grades) <b>Note:</b> Transfer students should include a comprehensive resume to include activities and accomplishments from high school as well as any two and four year institutions. <br><br></td>
-        <td><input id="resume" name="resume" size="18" title="Ms Word Doc only" type="file"><br><small>Ms Word Doc only</small><br><br></td>
-        </tr>
-        <tr>
-        <td>Essay: If accepted into the Honors Program, what will you bring to the table? In what ways will your presence strengthen the Program? Discuss in approximately 500 words.<br><br></td>
-        <td><input id="essay" name="essay" size="18" title="Ms Word Doc only" type="file"><br><small>Ms Word Doc only</small><br><br></td>
-        </tr>
-        <tr>
-        <td>Please upload a photo of yourself<br><br></td>
-        <td><input id="photo" name="photo" size="18" title="JPG, PNG, etc. only" type="file"><br><small>JPG, PNG, etc. only</small><br><br></td>
-        </tr>
-        <tr style="border: none;">
-        <td align="center" colspan="2"><small><em>By submitting this form, I am giving the University of North Alabama consent to contact me through phone, text or email.</em></small><br><br><input class="btn btn-warning active" name="submit" type="submit" value="Submit Application"></td>
-        </tr>
-        </tbody>
-        </table>
-        </form>
+				<tr style="border: none;">
+				<th align="left" colspan="2"><br><br>
+				<h3>Step II: Upload Resume and Essay</h3>
+				</th>
+				</tr>
+				<tr>
+				<td>Resume of honors, awards, and activities (9th through 12th grades) <b>Note:</b> Transfer students should include a comprehensive resume to include activities and accomplishments from high school as well as any two and four year institutions. <br><br></td>
+				<td><input id="resume" name="resume" size="18" title="Ms Word Doc only" type="file"><br><small>Ms Word Doc only</small><br><br></td>
+				</tr>
+				<tr>
+				<td>Essay: If accepted into the Honors Program, what will you bring to the table? In what ways will your presence strengthen the Program? Discuss in approximately 500 words.<br><br></td>
+				<td><input id="essay" name="essay" size="18" title="Ms Word Doc only" type="file"><br><small>Ms Word Doc only</small><br><br></td>
+				</tr>
+				<tr>
+				<td>Please upload a photo of yourself<br><br></td>
+				<td><input id="photo" name="photo" size="18" title="JPG, PNG, etc. only" type="file"><br><small>JPG, PNG, etc. only</small><br><br></td>
+				</tr>
+				<tr style="border: none;">
+				<td align="center" colspan="2"><small><em>By submitting this form, I am giving the University of North Alabama consent to contact me through phone, text or email.</em></small><br><br><center><input class="btn btn-warning active" name="submit" type="submit" value="Submit Application"></center></td>
+				</tr>
+			</form>
+	</div>
+
+	<!--Footer-->
+	<footer class="container-fluid" style="margin-top: 6%;">
+		<div class="container">
+			<div class="row">
+				<div class="social-foot col-xs-12 col-md-12">
+					<div class="col-xs-12 col-sm-6 col-md-6">
+						<span class="btn-lg glyphicon glyphicon-globe pull-left"></span>
+						<address>Florence, AL 35632<br>(256) 765-4100<br>1 (800) TALK-UNA</address>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-6">
+						<div class="btn-group pull-right">
+							<a class="btn btn-default btn-md ui-link" href="http://www.facebook.com/northalabama" target="_blank">
+								<i class="fa-lg fa-facebook fa"> </i>
+							</a>
+							<a class="btn btn-default btn-md ui-link hidden-xs" href="https://plus.google.com/111961480250852007759/posts" target="_blank">
+								<i class="fa-lg fa-google-plus fa"> </i>
+							</a>
+							<a class="btn btn-default btn-md ui-link" href="http://www.instagram.com/north_alabama" target="_blank">
+								<i class="fa-lg fa-instagram fa"> </i>
+							</a>
+							<a class="btn btn-default btn-md ui-link hidden-xs" href="https://www.linkedin.com/company/39835" target="_blank">
+								<i class="fa-lg fa-linkedin fa"> </i>
+							</a>
+							<a class="btn btn-default btn-md ui-link" href="http://www.twitter.com/north_alabama" target="_blank">
+								<i class="fa-lg fa-twitter fa"> </i>
+							</a>
+							<a class="btn btn-default btn-md ui-link" href="http://www.youtube.com/unaroarlions" target="_blank">
+								<i class="fa-lg fa-youtube fa"> </i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footerlist" class="row">
+				<div class="col-xs-12 col-sm-3 col-md-3">
+					<a href="/map/" target="_self" title="View Campus Maps">
+						<img alt="Map of University of North Alabama Campus" class="img-responsive" src="../images/unamap.png" data-pagespeed-url-hash="2882918269" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-3 col-md-3 hidden-xs">
+					<ul><li><a href="https://una.edu/administration/accreditation.html" target="_self">Accreditation</a></li></br></br>
+						<li><a href="https://una.edu/administration/index.html" target="_self">Administration</a></li></br></br>
+						<li><a href="https://alumni.una.edu/sslpage.aspx?pid=193" target="_self">Alumni OnLION</a></li></br></br>
+						<li><a href="https://una.edu/pressroom/" target="_self">Campus News</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-3 col-md-3 hidden-xs">
+					<ul>
+						<li><a href="https://una.edu/police/index.html" target="_self">Campus Police</a></li></br></br>
+						<li><a href="https://una.edu/emergency-management/index.html" target="_self">Emergency Info</a></li></br></br>
+						<li><a href="https://una.edu/humanresources/employment.html" target="_self">Employment</a></li></br></br>
+						<li><a href="http://www.florala.net/" target="_self">The Flor-Ala</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-3 col-md-3 hidden-xs">
+					<ul>
+						<li><a href="https://www.una.edu/campaign/index.html" target="_self">Give to UNA</a></li></br></br>
+						<li><a href="https://una.edu/lionalert/index.html" target="_self">Lion Alert</a></li></br></br>
+						<li><a href="https://una.edu/map/" target="_self">Map/Directions</a></li></br></br>
+						<li><a href="https://una.edu/administration/mission-statement.html" target="_self">Mission Statement</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="copyright col-xs-12 col-md-12">
+					<small><span class="pull-left">Copyright © 2016 | University of North Alabama | All rights reserved.</span><span class="pull-right"><a href="https://una.edu/web/cascade/find-your-web-lion.html" target="_self">Website Feedback</a></span></small>
+				</div>
 			</div>
 		</div>
+	</footer>
+	<!--End Footer-->
 
-		<!--Footer-->
-		<footer class="container-fluid" style="margin-top: 6%;">
-			<div class="container">
-				<div class="row">
-					<div class="social-foot col-xs-12 col-md-12">
-						<div class="col-xs-12 col-sm-6 col-md-6">
-							<span class="btn-lg glyphicon glyphicon-globe pull-left"></span>
-							<address>Florence, AL 35632<br>(256) 765-4100<br>1 (800) TALK-UNA</address>
-						</div>
-						<div class="col-xs-12 col-sm-6 col-md-6">
-							<div class="btn-group pull-right">
-								<a class="btn btn-default btn-md ui-link" href="http://www.facebook.com/northalabama" target="_blank">
-									<i class="fa-lg fa-facebook fa"> </i>
-								</a>
-								<a class="btn btn-default btn-md ui-link hidden-xs" href="https://plus.google.com/111961480250852007759/posts" target="_blank">
-									<i class="fa-lg fa-google-plus fa"> </i>
-								</a>
-								<a class="btn btn-default btn-md ui-link" href="http://www.instagram.com/north_alabama" target="_blank">
-									<i class="fa-lg fa-instagram fa"> </i>
-								</a>
-								<a class="btn btn-default btn-md ui-link hidden-xs" href="https://www.linkedin.com/company/39835" target="_blank">
-									<i class="fa-lg fa-linkedin fa"> </i>
-								</a>
-								<a class="btn btn-default btn-md ui-link" href="http://www.twitter.com/north_alabama" target="_blank">
-									<i class="fa-lg fa-twitter fa"> </i>
-								</a>
-								<a class="btn btn-default btn-md ui-link" href="http://www.youtube.com/unaroarlions" target="_blank">
-									<i class="fa-lg fa-youtube fa"> </i>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="footerlist" class="row">
-					<div class="col-xs-12 col-sm-3 col-md-3">
-						<a href="/map/" target="_self" title="View Campus Maps">
-							<img alt="Map of University of North Alabama Campus" class="img-responsive" src="../images/unamap.png" data-pagespeed-url-hash="2882918269" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-						</a>
-					</div>
-					<div class="col-xs-12 col-sm-3 col-md-3 hidden-xs">
-						<ul><li><a href="https://una.edu/administration/accreditation.html" target="_self">Accreditation</a></li></br></br>
-							<li><a href="https://una.edu/administration/index.html" target="_self">Administration</a></li></br></br>
-							<li><a href="https://alumni.una.edu/sslpage.aspx?pid=193" target="_self">Alumni OnLION</a></li></br></br>
-							<li><a href="https://una.edu/pressroom/" target="_self">Campus News</a></li>
-						</ul>
-					</div>
-					<div class="col-xs-12 col-sm-3 col-md-3 hidden-xs">
-						<ul>
-							<li><a href="https://una.edu/police/index.html" target="_self">Campus Police</a></li></br></br>
-							<li><a href="https://una.edu/emergency-management/index.html" target="_self">Emergency Info</a></li></br></br>
-							<li><a href="https://una.edu/humanresources/employment.html" target="_self">Employment</a></li></br></br>
-							<li><a href="http://www.florala.net/" target="_self">The Flor-Ala</a></li>
-						</ul>
-					</div>
-					<div class="col-xs-12 col-sm-3 col-md-3 hidden-xs">
-						<ul>
-							<li><a href="https://www.una.edu/campaign/index.html" target="_self">Give to UNA</a></li></br></br>
-							<li><a href="https://una.edu/lionalert/index.html" target="_self">Lion Alert</a></li></br></br>
-							<li><a href="https://una.edu/map/" target="_self">Map/Directions</a></li></br></br>
-							<li><a href="https://una.edu/administration/mission-statement.html" target="_self">Mission Statement</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="row">
-					<div class="copyright col-xs-12 col-md-12">
-						<small><span class="pull-left">Copyright © 2016 | University of North Alabama | All rights reserved.</span><span class="pull-right"><a href="https://una.edu/web/cascade/find-your-web-lion.html" target="_self">Website Feedback</a></span></small>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!--End Footer-->
+	<!--Internal CSS-->
+	<style>
+	a {
+		color: inherit;
+	}
+	a:hover {
+	  color: inherit;
+	}
+	hr {
+	  border-color: #eb9316;
+	}
+	li {
+	display: inline;
+	}
+	li:hover {
+		background-color: #db9f11;
+		}
+	#footerlist ul>li:hover{
+	background-color: inherit;
+	}
 
-		<!--Internal CSS-->
-		<style>
-		a {
-			color: inherit;
-		}
-		a:hover {
-		  color: inherit;
-		}
-		hr {
-		  border-color: #eb9316;
-		}
-		li {
-		display: inline;
-		}
-		li:hover {
-			background-color: #db9f11;
-			}
-		#footerlist ul>li:hover{
+	li.open.dropdown:hover {
 		background-color: inherit;
 		}
-
-		li.open.dropdown:hover {
-			background-color: inherit;
-			}
-		</style>
-		<!--End Internal CSS-->
+	</style>
+	<!--End Internal CSS-->
 
 	</body>
 </html>

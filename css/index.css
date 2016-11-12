@@ -217,9 +217,28 @@ footer {
   }
 
 }
+@media all and (max-width: 650px) {
+	h3 span {
+	font-size: 32px;
+	margin: 0 0 0 0;
+  }
+  #pictureContainer {
+	margin-left: -.5%;
+  }
+  #indexImage1 {
+	  margin-left: -.5%;
+  }
+  #indexImage2 {
+	  margin-left: -.5%;
+  }
+  #indexImage3 {
+	  margin-left: -.5%;
+  }
+
+}
 @media all and (max-width: 600px) {
 	h3 span {
-	font-size: 28px;
+	font-size: 30px;
 	margin: 0 0 0 0;
   }
   #pictureContainer {
@@ -238,7 +257,7 @@ footer {
 }
 @media all and (max-width: 500px) {
 	h3 span {
-	font-size: 26px;
+	font-size: 28px;
 	margin: 0 0 0 0;
   }
   #indexImage1 {
@@ -256,7 +275,35 @@ footer {
   }
 
 }
-@media all and (max-width: 450px) {
+@media all and (max-width: 480px) {
+	h3 span {
+	font-size: 27px;
+	margin: 0 0 0 0;
+  }
+
+}
+@media all and (max-width: 460px) {
+	h3 span {
+	font-size: 26px;
+	margin: 0 0 0 0;
+  }
+
+}
+@media all and (max-width: 440px) {
+	h3 span {
+	font-size: 25px;
+	margin: 0 0 0 0;
+  }
+
+}
+@media all and (max-width: 420px) {
+	h3 span {
+	font-size: 24px;
+	margin: 0 0 0 0;
+  }
+
+}
+@media all and (max-width: 400px) {
 	h3 span {
 	font-size: 22px;
 	margin: 0 0 0 0;

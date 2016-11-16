@@ -19,7 +19,8 @@
 	<body style="background: url(images/texture.png);">
 		<!--Header-->
 		<div id="unaHeader" class="container header" style="text-decoration: none; color: white; font-size: 17px; text-transform: uppercase; margin: 0 auto; width: 100%;">
-<a href="http://www.una.edu"><img class="img-responsive pull-left" src="../images/UNALogo.png"/ style="margin-left: 13%;"></a>		<ul class="nav navbar-nav navbar-right" id="main-nav" style="margin-right: 10%;">
+	<div class="container">
+	<a href="http://www.una.edu"><img id="headerImage" class="img-responsive pull-left" src="../images/UNALogo.png"/></a>		<ul class="nav navbar-nav navbar-right" id="main-nav">
 		<li class="dropdown"><a class="dropdown-toggle ui-link" data-toggle="dropdown" style="background-color: inherit"; aria-expanded="false">Apply<span class="glyphicon glyphicon-chevron-down"></span></a>
 		<ul class="dropdown-menu">
 		<li class="dropdown-header"><strong>GET STARTED!</strong></li>
@@ -98,66 +99,102 @@
 		<li class="hidden-sm"><a class="ui-link" href="/lioncam/index.html" target="_self" style="background-color: inherit";>LionCam <span class="glyphicon glyphicon-facetime-video" style="color:#db9f11;"></span></a></li>
 		</ul>
 		</div>
-		<nav class="navbar navbar-inverse" id="my-navbar" style="background-color: #333;">
- 	<div class="container">
- 		<div id="navbarHeaderToggle" class="navbar-header row">
-      	<a href="http://www.una.edu"><img id="unaLogoResponsive" style="display:none;" src="../images/UNALogo.png"></a>
-			  <a href="../templates/index.html"><b><p id="toggleHome" style="color: white; display: none;">Honors Home</p></b></a>
- 		<button style="margin-top: -7.5%;" id="navbarToggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
- 		<span class="icon-bar" style="color:white;"></span>
- 		<span class="icon-bar"></span>
- 		<span class="icon-bar"></span>
- 		<span class="icon-bar"></span>
- 		</button>
-
- 		<p id="honorsText" class="navbar-brand" style="color: white;"><a href="../templates/index.html">Honors Program</a></p>
- 		</div><!-- Navbar Header-->
- 		<div class="collapse navbar-collapse" id="navbar-collapse">
-
- 		<a id="give" class="btn btn-warning navbar-btn navbar-right active" href="../templates/givetoday.html">Give Today</a>
- 		<a id="apply" class="btn btn-warning navbar-btn navbar-right active" href="../currentPages/applyTemplate.html" style="margin-right: 1%;">Honors Application</a>
- 		<ul class="nav navbar-nav pull-center" style="text-align:center; position: relative; and display: inline-block;">
- 		<li class="dropdown">
- 		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Current Students
- 		<span class="caret" /></a>
- 		<ul class="dropdown-menu">
-       <li><a href="../templates/currentTemplate.html">Home</a></li>
- 			<li><a href="../currentPages/civicengagement.html">Civic Engagement</a></li>
- 	    <li><a href="../currentPages/reads.html">Honors Program Reads</a></li>
- 	    <li><a href="../currentPages/capstone.html">Honors Capstone Courses</a></li>
-       <li><a href="../currentPages/contracting_courses.html">Honors Contracting Courses</a></li>
- 	    <li><a href="../prospectivePages/requirements.html">Program Requirements</a></li>
- 	    <li><a href="../prospectivePages/honorsStaff.html">Current Staff</a></li>
- 	    <li><a href="../currentPages/forms.html">Forms</a></li>
- 	  	<li><a href="../currentPages/honors_courses.html">Honors Courses</a></li>
- 		</ul>
- 		</li>
- 		<li class="dropdown">
- 		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Prospective Students
- 		<span class="caret" /></a>
- 		<ul class="dropdown-menu">
-       <li><a href="../templates/prospectiveTemplate.html">Home</a></li>
- 			<li><a href="../currentPages/applyTemplate.html">Apply Today</a></li>
- 	    <li><a href="../prospectivePages/participate.html">Participate</a></li>
- 	    <li><a href="../prospectivePages/scholarshipsTemplate.html">Scholarships</a></li>
- 	    <li><a href="../prospectivePages/FAQ.html">FAQs</a></li>
- 	    <li><a href="../prospectivePages/honorsStaff.html">Honors Program Staff</a></li>
- 	    <li><a href="../prospectivePages/requirements.html">Program Requirements</a></li>
- 		</ul>
- 		</li>
- 		<li class="dropdown">
- 		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Parents
- 		<span class="caret" /></a>
- 		<ul class="dropdown-menu">
-       <li><a href="../templates/parentsTemplate.html">Home</a></li>
- 	    <li><a href="../prospectivePages/scholarshipsTemplate.html">Scholarships</a></li>
- 		  <li><a href="../prospectivePages/requirements.html">Program Requirements</a></li>
- 		</ul>
- 		</li>
- 		<li><a href="#">Friends and Alumni</a></li>
- 		<li><a href="../prospectivePages/honorsStaff.html">Faculty and Staff</a></li>
- 		</ul>
- 		</div>
+		<nav id="unaNav" class="navbar navbar-inverse" id="my-navbar" style=" display: none; background-color: #2d0c49;">
+		<div class="container">
+			<div id="navbarHeaderToggle" class="navbar-header row">
+			<a href="http://www.una.edu"><img id="unaLogoResponsive" style="display:none;" src="../images/UNALogo.png"></a>
+			<a href="../templates/index.html"><b><p id="toggleHome" style="color: white; display: none;">Honors Home</p></b></a>
+			  <button style="margin-top: -7.5%;" id="navbarToggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+			  <span class="icon-bar" style="color:white;"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  </button>
+  </div>
+  </div>
+  <!-- Navbar Header-->
+  <div class="collapse navbar-collapse" id="navbar-collapse">
+  <div id="unaNav" class="container header" style="display: none; text-decoration: none; color: white; font-size: 17px; text-transform: uppercase; margin: 0 auto; width: 100%;">
+	<ul class="nav navbar-nav navbar-right" id="main-nav" style="margin-right: 10%;">
+		<li class="dropdown"><a class="dropdown-toggle ui-link" data-toggle="dropdown" style="background-color: inherit"; aria-expanded="false">Apply<span class="glyphicon glyphicon-chevron-down"></span></a>
+		<ul class="dropdown-menu">
+		<li class="dropdown-header"><strong>GET STARTED!</strong></li>
+		<li><a class="ui-link" href="/apply/index.html" target="_self"><strong>APPLY NOW</strong></a></li>
+		<li><a class="ui-link" href="/request/index.html" target="_self">Request Information</a></li>
+		<li><a class="ui-link" href="/admissions/costs-expenses.html" target="_self">Costs/Expenses</a></li>
+		<li><a class="ui-link" href="/financial-aid/index.html" target="_self">Financial Aid</a></li>
+		<li><a class="ui-link" href="/veterans/gi-bill-information.html" target="_self">GI Bill</a></li>
+		<li class="divider"></li><li class="dropdown-header"><strong>HOW TO APPLY</strong></li>
+		<li><a class="ui-link" href="/admissions/apply-to-una/new-freshmen.html" target="_self">New Students</a></li>
+		<li><a class="ui-link" href="/graduate/index.html" target="_self">Graduate Students</a></li>
+		<li><a class="ui-link" href="/international/admissions/index.html" target="_self">International Students</a></li>
+		<li><a class="ui-link" href="/admissions/apply-to-una/transfer-students.html" target="_self">Transfer Students</a></li>
+		<li><a class="ui-link" href="/admissions/apply-to-una/former-student.html" target="_self">Former Students</a></li>
+		<li><a class="ui-link" href="/admissions/non-degree-seeking-students.html" target="_self">Non-Degree</a></li>
+		<li class="divider"></li><li><a class="ui-link" href="/admissions/index.html" target="_self"><strong>Office of Admissions</strong></a></li>
+		</ul>
+		</li>
+		<li class="dropdown"><a class="dropdown-toggle ui-link" data-toggle="dropdown" style="background-color: inherit";>Learn<span class="glyphicon glyphicon-chevron-down"></span></a>
+		<ul class="dropdown-menu">
+		<li class="dropdown-header"><strong>STUDY AT UNA</strong></li>
+		<li><a class="ui-link" href="/academics/majors/" target="_self">Majors &amp; Minors</a></li>
+		<li><a class="ui-link" href="/continuing-education/index.html" target="_self">Continuing Education</a></li>
+		<li><a class="ui-link" href="/distance/index.html" target="_self">Distance Learning</a></li>
+		<li><a class="ui-link" href="/graduate/index.html" target="_self">Graduate Studies</a></li>
+		<li class="divider"></li><li class="dropdown-header"><strong>COLLEGES</strong></li>
+		<li><a class="ui-link" href="/artsandsciences/index.html" target="_self">Arts &amp; Sciences</a></li>
+		<li><a class="ui-link" href="/business/index.html" target="_self">Business</a></li>
+		<li><a class="ui-link" href="/education/index.html" target="_self">Education &amp; Human Sciences</a></li>
+		<li><a class="ui-link" href="/nursing/index.html" target="_self">Nursing</a></li>
+		<li class="divider"></li>
+		<li><a class="ui-link" href="/academics/index.html" target="_self"><strong>Academic Affairs</strong></a></li>
+		</ul>
+		</li>
+		<li class="dropdown"><a class="dropdown-toggle ui-link" data-toggle="dropdown" style="background-color: inherit";>Connect<span class="glyphicon glyphicon-chevron-down"></span></a>
+		<ul class="dropdown-menu">
+		<li class="dropdown-header"><strong>GET INVOLVED</strong></li>
+		<li><a class="ui-link" href="/greeklife/" target="_self">Greek Life</a></li>
+		<li><a class="ui-link" href="http://una.orgsync.com/org/leadershipvolunteerism" target="_self">Leadership &amp; Volunteerism</a></li>
+		<li><a class="ui-link" href="/liveon/" target="_self">University Residences</a></li>
+		<li><a class="ui-link" href="/calendar/" target="_self">Student Calendar</a></li>
+		<li><a class="ui-link" href="/sga/" target="_self">Student Government</a></li>
+		<li><a class="ui-link" href="/upc/" target="_self">University Program Council</a></li>
+		<li class="divider"></li><li><a class="ui-link" href="/student-engagement/" target="_self"><strong>Office of Student Engagement</strong></a></li>
+		</ul>
+		</li>
+		<li class="dropdown"><a class="dropdown-toggle ui-link" data-toggle="dropdown" style="background-color: inherit";>Sports<span class="glyphicon glyphicon-chevron-down" style="background-color: inherit";></span></a>
+		<ul class="dropdown-menu">
+		<li class="dropdown-header"><strong>ATHLETICS</strong></li>
+		<li><a class="ui-link" href="http://www.roarlions.com/sports/2015/6/2/TICKETS.aspx" target="_self">Get Tickets</a></li>
+		<li><a class="ui-link" href="http://www.roarlions.com/calendar.aspx" target="_self">Game Schedules</a></li>
+		<li><a class="ui-link" href="http://www.roarlions.com/hof.aspx" target="_self">Hall of Fame</a></li>
+		<li><a class="ui-link" href="http://portal.stretchinternet.com/una/" target="_self">Lion Vision</a></li>
+		<li class="divider"></li><li class="dropdown-header"><strong>RECREATIONAL SPORTS</strong></li>
+		<li><a class="ui-link" href="/recsports/club-sports/index.html" target="_self">Club Sports</a></li>
+		<li><a class="ui-link" href="/recsports/fitness-programs/index.html" target="_self">Fitness Programs</a></li>
+		<li><a class="ui-link" href="/recsports/intramural/index.html" target="_self">Intramural Sports</a></li>
+		<li><a class="ui-link" href="/oac/" target="_self">Outdoor Adventure Program</a></li>
+		<li class="divider"></li>
+		<li><a class="ui-link" href="http://www.roarlions.com" target="_self"><strong>University Athletics</strong></a></li>
+		</ul></li>
+		<li class="dropdown"><a class="dropdown-toggle ui-link" data-toggle="dropdown" style="background-color: inherit";>Alumni<span class="glyphicon glyphicon-chevron-down"></span></a>
+		<ul class="dropdown-menu">
+		<li class="dropdown-header"><strong>RECONNECT</strong></li>
+		<li><a class="ui-link" href="https://alumni.una.edu/alumniclubs" target="_self">Alumni Clubs</a></li>
+		<li><a class="ui-link" href="https://alumni.una.edu/sslpage.aspx?pid=250" target="_self">Alumni Events</a></li>
+		<li><a class="ui-link" href="/career/alumni-spotlight.html" target="_self">Alumni Spotlight</a></li>
+		<li><a class="ui-link" href="http://alumni.una.edu/page.aspx?pid=193" target="_self">Update your records</a></li>
+		<li><a class="ui-link" href="/career/index.html" target="_self">Career Center</a></li>
+		<li class="divider"></li>
+		<li><a class="ui-link" href="http://alumni.una.edu" target="_self"><strong>Alumni Relations</strong></a></li>
+		<li><a class="ui-link" href="/advancement/index.html" target="_self"><strong>University Advancement</strong></a></li>
+		</ul>
+		</li>
+		<li><a class="ui-link" href="https://www.una.edu/campaign/index.html" target="_self" style="background-color: inherit";>Give</a></li>
+		<li class="hidden-sm"><a class="ui-link" href="/lioncam/index.html" target="_self" style="background-color: inherit";>LionCam <span class="glyphicon glyphicon-facetime-video" style="color:#db9f11;"></span></a></li>
+		</ul>
+		</div>
+  </div>
  		</div><!-- End Container-->
  		</nav><!-- End navbar -->
 				<!--End Header-->

@@ -90,12 +90,36 @@ footer {
 	width: 192px;
 	height: 44px;
 	}
-	.dropdown-header {
+	#responsiveUl {
 		font-size: 14px;
 	}
-	.ui-link {
+	#responsiveLi {
 		font-size: 14px;
 	}
+	#honorsText {
+		font-size: 14px;
+	}
+
+	#responsiveHon {
+		font-size: 12px;
+	}
+	#apply span {
+		display: none;
+	}
+	#apply:after {
+		content: "Application";
+		padding: 1px 2.5px ;
+		font-size: 13px;
+	}
+	#give span {
+		display: none;
+	}
+	#give:after {
+		content: "Give";
+		padding: 1px 2.5px ;
+		font-size: 13px;
+	}
+
 }
 @media all and (max-width: 1000px) {
 	h3 span {
@@ -108,15 +132,55 @@ footer {
 	width: 168px;
 	height: 38.5px;
 	}
-	.dropdown-header {
+	#responsiveUl {
 		font-size: 12px;
 	}
-	.ui-link {
+	#responsiveLi {
 		font-size: 12px;
+	}
+	#honorsText {
+		font-size: 12px;
+	}
+	#responsiveHon {
+		font-size: 10px;
+	}
+	#apply {
+		display: none;
+	}
+	#give {
+		display: none;
 	}
 }
 
 @media all and (max-width: 767px) {
+	#responsiveUl {
+		font-size: 16px;
+	}
+	#responsiveLi {
+		font-size: 16px;
+	}
+	#honorsText {
+		font-size: 16px;
+	}
+	#responsiveHon {
+		font-size: 16px;
+	}
+	#apply {
+		display: block;
+		
+	}
+	#give {
+		display: block;
+		
+	}
+	#apply:after {
+		content: "Honors Application";
+		font-size: 16px;
+	}
+	#give:after {
+		content: "Give Today";
+		font-size: 16px;
+	}
  .header {
   border-bottom: none;
   }
